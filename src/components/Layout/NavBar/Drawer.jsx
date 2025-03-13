@@ -1,6 +1,6 @@
 import React from "react";
 import { MdClose } from "react-icons/md";
-import Logo from "../../../assets/logos/logo.svg";
+import Logo from "../../../assets/logos/camelotLogoWhite.png";
 import { useTranslation } from "react-i18next";
 export default function Drawer({ children, isOpen, setIsOpen }) {
   const { i18n } = useTranslation();

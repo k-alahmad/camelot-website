@@ -19,6 +19,7 @@ export default {
         medium: "MonMedium",
         light: "MonLight",
         semibold: "MonSemiBold",
+        bold: "MonBold",
       },
 
       colors: {

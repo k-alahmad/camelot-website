@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Logo from "../../../assets/logos/logo.svg";
+import Logo from "../../../assets/logos/camelotLogoWhite.png";
 import { NavElement } from "../../../data/navData";
 import LinkElement from "../NavBar/LinkElement";
 import { MdPhone, MdMail, MdFacebook } from "react-icons/md";
@@ -9,16 +9,10 @@ const Footer = () => {
   const [selectedLink, setSelectedLink] = useState("Home");
 
   return (
-    <div className="max-w-[1920px] w-full relative space-y-10 flex flex-col justify-start items-center p-[3%] pt-0">
-      <div className=" w-full rounded-3xl gap-x-5 text-white bg-third h-[95%] grid md:grid-cols-2 lg:grid-cols-3 place-items-center p-[5%] gap-12">
+    <div className="max-w-[1920px] w-full relative space-y-10 flex flex-col justify-start items-center pt-0">
+      <div className=" w-full gap-x-5 text-white bg-primary h-full grid md:grid-cols-2 lg:grid-cols-3 place-items-center p-[5%] gap-12">
         <div className="space-y-10 h-full pt-2 md:max-lg:col-span-2">
-          <img src={Logo} alt="LOGO" className="w-full h-[100px]" />
-          <p className="text-smaller font-light">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters,
-          </p>
+          <img src={Logo} alt="LOGO" className="w-full h-[300px]" />
         </div>
         <div className="space-y-3 h-full">
           <p className="px-2 py-4 cursor-pointer text-small font-medium text-fourth uppercase">

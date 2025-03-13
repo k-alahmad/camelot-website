@@ -6,7 +6,7 @@ const LinkElement = ({ name, link, styled, onClick }) => {
       onClick={onClick}
       style={({ isActive }) => {
         return {
-          color: isActive ? "#4ECD9D" : "white",
+          color: isActive ? colors.secondary : "white",
           borderRadius: 0,
           fontWeight: isActive ? "bold" : "normal",
         };
