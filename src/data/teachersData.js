@@ -1,7 +1,9 @@
 export const teachersData = {
-    titleEn:"We will select a native speaker,IELTS examiner or Arabic-speaking teacher according to your request",
-    titleAr:" سنقوم بإختيار متحدثين اصليين للغة أو معدي فحص أو متحدثين باللغة العربية حسب متطلباتك",
-    teachers : [
+  titleEn:
+    "We will select a native speaker, IELTS examiner, or Arabic-speaking teacher according to your request",
+  titleAr:
+    " سنقوم بإختيار متحدثين اصليين للغة أو معدي فحص أو متحدثين باللغة العربية حسب متطلباتك",
+  teachers: [
     {
       id: "1",
       nameEN: "Lance",
@@ -9,22 +11,28 @@ export const teachersData = {
       titleEn: "General English / IELTS / Business English",
       titleAr: "الإنجليزية العامة / IELTS / الإنجليزية للأعمال",
       descEn:
-        "Founder and Academic Director of the school, leading its vision and academic excellence. Holds a prestigious DELTA qualification, demonstrating advanced expertise in English language teaching. A seasoned educator with a strong track record of guiding students to C2 proficiency, specialising in advanced language acquisition, exam preparation, and academic English. Passionate about curriculum development, teacher training, and fostering a dynamic learning environment that empowers students to achieve linguistic mastery.",
+        "Founder and Academic Director, guiding the school's vision and academic excellence. DELTA-certified expert in English teaching with a strong track record in C2 proficiency, advanced learning, and exam preparation. Passionate about curriculum development, teacher training, and fostering a dynamic, empowering learning environment.",
       descAr:
         "مؤسس ومدير أكاديمي للمدرسة، يقود رؤيتها وتميزها الأكاديمي. حاصل على مؤهل DELTA المرموق، مما يدل على خبرة متقدمة في تدريس اللغة الإنجليزية. معلم متمرس بسجل حافل في توجيه الطلاب إلى إتقان C2، متخصص في اكتساب اللغة المتقدمة، والتحضير للامتحانات، واللغة الإنجليزية الأكاديمية. شغوف بتطوير المناهج، وتدريب المعلمين، وتعزيز بيئة تعليمية ديناميكية تمكن الطلاب من تحقيق الإتقان اللغوي.",
       image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
     },
     {
       id: "2",
       nameEN: "Sam",
       nameAr: "سام",
-      titleEn: "General English / IELTS / Exam Preparation / Resume Writing / Text Editing",
-      titleAr: "الإنجليزية العامة / IELTS / التحضير للامتحانات / كتابة السيرة الذاتية / تحرير النصوص",
+      titleEn:
+        "General English / IELTS / Exam Preparation / Resume Writing / Text Editing",
+      titleAr:
+        "الإنجليزية العامة / IELTS / التحضير للامتحانات / كتابة السيرة الذاتية / تحرير النصوص",
       descEn:
-        "Assistant Director of Studies, dedicated to academic excellence and student success. A distinguished writing expert, accomplished poet, and skilled speech specialist, Sam brings a wealth of linguistic expertise to the classroom. His deep understanding of language structure, rhetoric, and persuasive communication makes him an invaluable mentor for students aiming for top scores. If you've struggled with the exam multiple times and feel stuck in a cycle of frustration, Sam is your ultimate guide - offering strategic insights, personalised feedback, and proven techniques to help you finally achieve the score you need.",
+        "Assistant Director of Studies dedicated to academic excellence and student success. An IELTS expert, writing specialist, poet, and speech coach, Sam excels in language and communication. He will ensure you pass the IELTS with strategic insights, personalised feedback, and proven exam techniques.",
       descAr:
         "مساعد مدير الدراسات، مكرس للتميز الأكاديمي ونجاح الطلاب. خبير كتابة متميز، وشاعر بارع، ومتخصص في الخطابة ماهر، يجلب سام ثروة من الخبرة اللغوية إلى الفصل الدراسي. فهمه العميق لبنية اللغة، والبلاغة، والتواصل المقنع يجعله مرشدًا لا يقدر بثمن للطلاب الذين يهدفون إلى تحقيق أعلى الدرجات. إذا كنت قد كافحت مع الامتحان عدة مرات وشعرت بأنك عالق في دائرة من الإحباط، فإن سام هو دليلك النهائي - يقدم رؤى استراتيجية، وملاحظات شخصية، وتقنيات مثبتة لمساعدتك على تحقيق النتيجة التي تحتاجها أخيرًا.",
       image: "",
+      countryEn: "USA",
+      countryAr: "امريكا",
     },
     {
       id: "3",
@@ -33,10 +41,12 @@ export const teachersData = {
       titleEn: "General English / English for Children / Business English",
       titleAr: "الإنجليزية العامة / الإنجليزية للأطفال / الإنجليزية للأعمال",
       descEn:
-        "Head of Development and a dedicated Russian-speaking English teacher, Nastya is committed to helping learners break through language barriers and achieve fluency. With a remarkable ability to instill confidence, she creates a supportive and engaging environment where students feel empowered to speak from day one. Whether you're a beginner struggling to find your voice or an intermediate learner looking to refine your skills, Nastya’s patient guidance and expert teaching methods ensure steady progress. Her passion for language learning, combined with her deep understanding of student needs, makes her the perfect mentor to kickstart and accelerate your English-speaking journey.",
+        "Head of Development and a Russian-speaking English teacher, Nastya helps students gain confidence and fluency. She creates a supportive environment where learners speak from day one. With patient guidance and expert methods, she ensures steady progress for beginners and intermediates alike. Her passion and understanding make her the ideal mentor to accelerate your English journey.",
       descAr:
         "رئيسة التطوير ومعلمة لغة إنجليزية متخصصة تتحدث الروسية، ناستيا ملتزمة بمساعدة المتعلمين على تجاوز الحواجز اللغوية وتحقيق الطلاقة. بقدرة ملحوظة على غرس الثقة، تخلق بيئة داعمة وجذابة يشعر فيها الطلاب بالتمكين للتحدث من اليوم الأول. سواء كنت مبتدئًا تكافح للعثور على صوتك أو متعلمًا متوسطًا يتطلع إلى تحسين مهاراتك، فإن توجيه ناستيا الصبور وأساليب التدريس الخبيرة تضمن تقدمًا ثابتًا. شغفها بتعلم اللغة، جنبًا إلى جنب مع فهمها العميق لاحتياجات الطلاب، يجعلها المرشد المثالي لبدء وتسريع رحلتك في التحدث باللغة الإنجليزية.",
       image: "",
+      countryEn: "Russia",
+      countryAr: "روسيا",
     },
     {
       id: "4",
@@ -45,10 +55,12 @@ export const teachersData = {
       titleEn: "General English",
       titleAr: "الإنجليزية العامة",
       descEn:
-        "Learning English with Nastya is anything but dull. Her passion for TV series and movies brings a fresh and entertaining approach to language learning. As a true film and pop culture enthusiast, she incorporates engaging references, memorable scenes, and witty dialogues into her lessons, making vocabulary and expressions come alive. With her keen ear for linguistic nuances, she'll help you catch and understand the subtle wordplay, cultural references, and inside jokes of your favourite characters. Whether it's breaking down a punchline, explaining idiomatic expressions, or analysing accents, Nastya ensures that every lesson is both fun and enriching.",
+        "Learning English with Nastya is fun and engaging. A film and pop culture enthusiast, she uses movies, TV shows, and witty dialogues to bring language to life. She helps you catch wordplay, cultural references, and accents, making every lesson both enjoyable and enriching.",
       descAr:
         "تعلم اللغة الإنجليزية مع ناستيا ليس مملًا على الإطلاق. شغفها بالمسلسلات التلفزيونية والأفلام يجلب نهجًا جديدًا وممتعًا لتعلم اللغة. بصفتها من عشاق الأفلام والثقافة الشعبية الحقيقيين، فإنها تدمج مراجع جذابة ومشاهد لا تنسى وحوارات بارعة في دروسها، مما يجعل المفردات والتعبيرات تنبض بالحياة. بفضل أذنها الحريصة على الفروق الدقيقة اللغوية، ستساعدك على التقاط وفهم التلاعب بالألفاظ الدقيق والمراجع الثقافية والنكات الداخلية لشخصياتك المفضلة. سواء كان ذلك تحليلًا لخط النهاية أو شرحًا للتعبيرات الاصطلاحية أو تحليلًا للهجات، تضمن ناستيا أن يكون كل درس ممتعًا ومثريًا.",
       image: "",
+      countryEn: "Russia",
+      countryAr: "روسيا",
     },
     {
       id: "5",
@@ -57,118 +69,202 @@ export const teachersData = {
       titleEn: "General English / IELTS",
       titleAr: "الإنجليزية العامة / IELTS",
       descEn:
-        "Are you a fan of K-POP and cats? Saryuna knows exactly how to turn your passions into powerful language-learning tools! With her personalised approach, she creates customised training materials tailored to your interests, ensuring that every lesson feels exciting and engaging. Whether you're eager to chat about your favourite idols, analyse lyrics, or dive into the latest industry trends, she’ll seamlessly incorporate them into your learning journey. Before you know it, you'll be discussing your favourite K-POP stars, debating theories, and sharing fan stories—all in fluent English! With Saryuna, learning feels effortless, fun, and completely natural.",
+        "Love K-POP and cats? Saryuna turns your passions into fun language lessons! She creates personalised materials based on your interests, making learning exciting. Whether it's chatting about idols, analysing lyrics, or exploring trends, you'll soon be discussing your favourite stars with ease.",
       descAr:
         "هل أنت من محبي الكيبوب والقطط؟ ساريونا تعرف بالضبط كيف تحول شغفك إلى أدوات قوية لتعلم اللغة! من خلال نهجها الشخصي، تقوم بإنشاء مواد تدريب مخصصة مصممة خصيصًا لاهتماماتك، مما يضمن أن يكون كل درس مثيرًا وجذابًا. سواء كنت حريصًا على الدردشة حول معبوديك المفضلين أو تحليل كلمات الأغاني أو الغوص في أحدث اتجاهات الصناعة، فإنها ستدمجها بسلاسة في رحلة التعلم الخاصة بك. قبل أن تعرف ذلك، ستناقش نجوم الكيبوب المفضلين لديك، وتناقش النظريات، وتشارك قصص المعجبين—كل ذلك باللغة الإنجليزية بطلاقة! مع ساريونا، يبدو التعلم سهلًا وممتعًا وطبيعيًا تمامًا.",
       image: "",
+      countryEn: "Russia",
+      countryAr: "روسيا",
     },
     {
-        id: "6",
-        nameEN: "Teresa",
-        nameAr: "تيريزا",
-        titleEn: "General English / IELTS",
-        titleAr: "الإنجليزية العامة / اختبار الآيلتس",
-        descEn:
-          "Teresa is a passionate traveler who sees language as more than just a tool for communication—it’s a gateway to understanding different cultures, perspectives, and ways of life. With every new language learned, she believes, comes a deeper appreciation for the traditions, histories, and people that shape the world. Her global experiences enrich her teaching, allowing her to bring real-world context, cultural insights, and fascinating stories into her lessons. Whether you’re preparing for an international adventure or simply want to connect with people from diverse backgrounds, Teresa will inspire you to see language learning as a journey of exploration and discovery.",
-        descAr:
-          "تيريزا مسافرة شغوفة ترى اللغة أكثر من مجرد أداة للتواصل، بل هي بوابة لفهم الثقافات ووجهات النظر وأنماط الحياة المختلفة. تؤمن بأنه مع كل لغة جديدة يتم تعلمها، يأتي تقدير أعمق للتقاليد والتاريخ والأشخاص الذين يشكلون العالم. تجاربها العالمية تثري تدريسها، مما يسمح لها بإدخال سياق العالم الحقيقي والرؤى الثقافية والقصص الرائعة في دروسها. سواء كنت تستعد لمغامرة دولية أو ترغب ببساطة في التواصل مع أشخاص من خلفيات متنوعة، ستلهمك تيريزا لرؤية تعلم اللغة كرحلة استكشاف واكتشاف.",
-        image: "",
-      },
-      {
-        id: "7",
-        nameEN: "Chris",
-        nameAr: "كريس",
-        titleEn: "General English / IELTS",
-        titleAr: "الإنجليزية العامة / اختبار الآيلتس",
-        descEn:
-          "Chris has a unique ability to connect with students of all ages, tailoring lessons to suit their individual learning styles and goals. With a dynamic and creative approach to teaching, Chris goes beyond traditional methods, incorporating innovative techniques like learning English through films, engaging in thought-provoking debates, and working on interactive projects. These unconventional strategies not only make lessons more exciting and immersive but also help students develop practical language skills in a natural and enjoyable way. Whether you're analysing movie dialogues, defending your opinion in a debate, or collaborating on real-world projects, Chris ensures that every class is both stimulating and highly effective.",
-        descAr:
-          "كريس لديه قدرة فريدة على التواصل مع الطلاب من جميع الأعمار، وتصميم الدروس لتناسب أنماط التعلم والأهداف الفردية. مع نهج ديناميكي وإبداعي في التدريس، يتجاوز كريس الأساليب التقليدية، ويدمج تقنيات مبتكرة مثل تعلم اللغة الإنجليزية من خلال الأفلام، والمشاركة في مناقشات مثيرة للتفكير، والعمل على مشاريع تفاعلية. هذه الاستراتيجيات غير التقليدية لا تجعل الدروس أكثر إثارة وغامرة فحسب، بل تساعد الطلاب أيضًا على تطوير مهارات لغوية عملية بطريقة طبيعية وممتعة. سواء كنت تحلل حوارات الأفلام، أو تدافع عن رأيك في مناظرة، أو تتعاون في مشاريع واقعية، يضمن كريس أن كل فصل دراسي محفز وفعال للغاية.",
-        image: "",
-      },
-      {
-        id: "8",
-        nameEN: "Katie",
-        nameAr: "كيتي",
-        titleEn: "Preparation for international exams / General English for children and adults / Business English",
-        titleAr: "التحضير للاختبارات الدولية / الإنجليزية العامة للأطفال والكبار / الإنجليزية للأعمال",
-        descEn:
-          "Katie is fluent in English, Italian, and French, making her the perfect guide to ensure you'll be speaking non-stop and immersing yourself in language from every angle. Her passion for language learning goes beyond teaching—she took the IELTS herself to truly understand the challenges students face. This personal experience gives her a unique perspective, allowing her to empathise with your journey and provide the support you need. Whether you're navigating exam stress or striving for fluency, Katie's relatable approach ensures you’ll feel comfortable, motivated, and ready to succeed every step of the way.",
-        descAr:
-          "كيتي تتقن اللغة الإنجليزية والإيطالية والفرنسية، مما يجعلها المرشد المثالي لضمان تحدثك باستمرار والانغماس في اللغة من كل زاوية. شغفها بتعلم اللغة يتجاوز التدريس، فقد خاضت اختبار الآيلتس بنفسها لتفهم حقًا التحديات التي يواجهها الطلاب. هذه التجربة الشخصية تمنحها منظورًا فريدًا، مما يسمح لها بالتعاطف مع رحلتك وتقديم الدعم الذي تحتاجه. سواء كنت تتغلب على ضغوط الاختبار أو تسعى جاهدًا لتحقيق الطلاقة، فإن نهج كيتي الودي يضمن شعورك بالراحة والتحفيز والاستعداد للنجاح في كل خطوة على الطريق.",
-        image: "",
-      },
-      {
-        id: "9",
-        nameEN: "Dan",
-        nameAr: "دان",
-        titleEn: "General English/ Business and IT/ IELTS preparation",
-        titleAr: "الإنجليزية العامة / الأعمال وتكنولوجيا المعلومات / التحضير لاختبار الآيلتس",
-        descEn:
-          "Dan holds a degree in Business and Management and brings over 15 years of experience as an IELTS trainer, with a specialisation in corporate training and business writing. His expertise spans from preparing students for exams to helping professionals craft standout resumes and cover letters that make a lasting impression. With Dan, you’ll quickly discover that business English isn’t just practical—it’s also engaging and dynamic. Whether you're looking to advance in your career, refine your writing skills, or ace your IELTS exam, Dan’s tailored approach ensures you’ll gain confidence and mastery in every aspect of professional English.",
-        descAr:
-          "دان حاصل على شهادة في إدارة الأعمال والإدارة ويجلب معه أكثر من 15 عامًا من الخبرة كمدرب آيلتس، مع تخصص في التدريب المؤسسي والكتابة التجارية. تمتد خبرته من إعداد الطلاب للاختبارات إلى مساعدة المهنيين في صياغة سير ذاتية ورسائل تغطية متميزة تترك انطباعًا دائمًا. مع دان، ستكتشف بسرعة أن اللغة الإنجليزية للأعمال ليست عملية فحسب، بل هي أيضًا جذابة وديناميكية. سواء كنت تتطلع إلى التقدم في حياتك المهنية، أو تحسين مهاراتك في الكتابة، أو التفوق في اختبار الآيلتس، فإن نهج دان المصمم خصيصًا يضمن لك اكتساب الثقة والإتقان في كل جانب من جوانب اللغة الإنجليزية المهنية.",
-        image: "",
-      },
-      {
-        id: "10",
-        nameEN: "Robert",
-        nameAr: "روبرت",
-        titleEn: "General English/ Business and IT/ IELTS preparation",
-        titleAr: "الإنجليزية العامة / الأعمال وتكنولوجيا المعلومات / التحضير لاختبار الآيلتس",
-        descEn:
-          "Rob is a current Cambridge examiner with a keen eye for detail and a strong focus on pronunciation. He believes that the best way to learn a language is through a natural, immersive approach that encourages students to engage with the language in real-world contexts. With his vast experience and expertise, Rob makes even the most complex topics accessible by breaking them down into clear, manageable lessons. Whether it's grammar, phonetics, or other key language skills, he ensures that every concept is explained in a straightforward and approachable way, making learning both effective and enjoyable. His patient and attentive teaching style helps students build confidence and truly internalise the language, setting them up for success.",
-        descAr:
-          "روبرت هو ممتحن كامبريدج حالي يتمتع بعين ثاقبة للتفاصيل وتركيز قوي على النطق. يؤمن بأن أفضل طريقة لتعلم اللغة هي من خلال نهج طبيعي وغامر يشجع الطلاب على التفاعل مع اللغة في سياقات العالم الحقيقي. بفضل خبرته الواسعة وتخصصه، يجعل روبرت حتى أكثر الموضوعات تعقيدًا في متناول اليد عن طريق تقسيمها إلى دروس واضحة وقابلة للإدارة. سواء كانت قواعد اللغة أو الصوتيات أو مهارات اللغة الأساسية الأخرى، فإنه يضمن شرح كل مفهوم بطريقة مباشرة وسهلة المنال، مما يجعل التعلم فعالاً وممتعًا. أسلوبه التعليمي الصبور واليقظ يساعد الطلاب على بناء الثقة واستيعاب اللغة حقًا، مما يؤهلهم للنجاح.",
-        image: "",
-      },
-      {
-        id: "11",
-        nameEN: "Michelle",
-        nameAr: "ميشيل",
-        titleEn: "General English/ Business and IT/ IELTS preparation",
-        titleAr: "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
-        descEn:
-          "Mike is a seasoned Cambridge examiner from England with over 20 years of teaching experience. His vast expertise allows him to effortlessly connect with students from all backgrounds, tailoring his approach to suit individual needs and learning styles. With a passion for sharing the rich cultural nuances of British English, Mike not only helps students master language skills but also introduces them to the playful and witty side of the language, teaching you how to joke in English in a way that will make everyone laugh - not just your mother! His engaging lessons are designed to be both fun and educational, ensuring that you build fluency while embracing the humour and charm of British culture.",
-        descAr:
-          "مايك هو ممتحن كامبريدج مخضرم من إنجلترا يتمتع بخبرة تزيد عن 20 عامًا في التدريس. تتيح له خبرته الواسعة التواصل بسهولة مع الطلاب من جميع الخلفيات، وتصميم نهجه ليناسب الاحتياجات الفردية وأنماط التعلم. بشغف لمشاركة الفروق الثقافية الدقيقة للغة الإنجليزية البريطانية، لا يساعد مايك الطلاب على إتقان المهارات اللغوية فحسب، بل يقدم لهم أيضًا الجانب المرح والفكاهي للغة، ويعلمك كيف تمزح باللغة الإنجليزية بطريقة تجعل الجميع يضحكون - ليس فقط والدتك! تم تصميم دروسه الجذابة لتكون ممتعة وتعليمية، مما يضمن لك بناء الطلاقة مع تبني روح الدعابة وسحر الثقافة البريطانية.",
-        image: "",
-      },
-      {
-        id: "12",
-        nameEN: "Eric",
-        nameAr: "إريك",
-        titleEn: "General English/ Business and IT/ IELTS preparation",
-        titleAr: "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
-        descEn:
-          "Eric embodies the quintessential British teacher, just like the ones we see in textbooks and on TV—charismatic, approachable, and highly professional. With his classic British charm and deep commitment to education, he creates a positive, supportive learning environment that helps students thrive. Eric is the ideal teacher for anyone seeking the best educational experience for their child. His patient, engaging approach ensures that lessons are not only effective but also enjoyable, fostering a love for learning in young minds. With his dedication to both academic excellence and personal growth, Eric is the perfect choice to help your child develop strong language skills and confidence.",
-        descAr:
-          "يجسد إريك المعلم البريطاني المثالي، تمامًا مثل أولئك الذين نراهم في الكتب المدرسية وعلى شاشة التلفزيون - يتمتع بشخصية جذابة، وودود، ومحترف للغاية. بسحره البريطاني الكلاسيكي والتزامه العميق بالتعليم، يخلق بيئة تعليمية إيجابية وداعمة تساعد الطلاب على الازدهار. إريك هو المعلم المثالي لأي شخص يبحث عن أفضل تجربة تعليمية لطفله. يضمن نهجه الصبور والجذاب أن تكون الدروس ليست فعالة فحسب، بل ممتعة أيضًا، مما يعزز حب التعلم في عقول الشباب. بتفانيه في التميز الأكاديمي والنمو الشخصي، إريك هو الخيار الأمثل لمساعدة طفلك على تطوير مهارات لغوية قوية وثقة.",
-        image: "",
-      },
-      {
-        id: "13",
-        nameEN: "Alexander",
-        nameAr: "ألكسندر",
-        titleEn: "General English/ Business and IT/ IELTS preparation",
-        titleAr: "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
-        descEn:
-          "A strict yet fair teacher with a strong academic background in linguistics and history, Alexander brings a wealth of knowledge and expertise to the classroom. With a clear focus on structure and organisation, they will help you systematise your understanding, ensuring that you not only grasp key concepts but also know how to apply them effectively in real-life situations. Known for their high standards and meticulous approach, Alexander creates a learning environment that challenges students to reach their full potential, all while offering consistent guidance and support. Whether you're mastering complex linguistic theories or exploring historical contexts, their thorough and methodical teaching style will equip you with the tools you need for success.",
-        descAr:
-          "معلم صارم ولكنه عادل يتمتع بخلفية أكاديمية قوية في اللغويات والتاريخ، يجلب ألكسندر ثروة من المعرفة والخبرة إلى الفصل الدراسي. مع التركيز الواضح على الهيكل والتنظيم، سيساعدك على تنظيم فهمك، مما يضمن أنك لا تستوعب المفاهيم الأساسية فحسب، بل تعرف أيضًا كيفية تطبيقها بفعالية في مواقف الحياة الواقعية. يشتهر ألكسندر بمعاييره العالية ونهجه الدقيق، ويخلق بيئة تعليمية تتحدى الطلاب للوصول إلى كامل إمكاناتهم، كل ذلك مع تقديم التوجيه والدعم المستمر. سواء كنت تتقن النظريات اللغوية المعقدة أو تستكشف السياقات التاريخية، فإن أسلوبهم التعليمي الشامل والمنهجي سيزودك بالأدوات التي تحتاجها للنجاح.",
-        image: "",
-      },
-      {
-        id: "14",
-        nameEN: "Ken",
-        nameAr: "كين",
-        titleEn: "General English/ Business and IT/ IELTS preparation",
-        titleAr: "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
-        descEn:
-          "A native speaker from Scotland, Ken is the perfect teacher for those who have always felt intimidated by native speakers but are eager to start learning. With his gentle and friendly nature, Ken creates a comfortable and welcoming environment where you can feel at ease while building your confidence in speaking. With extensive teaching experience, he tailors lessons to suit your individual needs, developing personalised learning materials that ensure steady progress. Not only will Ken help you master the language, but he will also immerse you in the rich culture and customs of Scotland, making your learning experience both educational and culturally enriching, bringing the language to life in a way that feels natural and enjoyable.",
-        descAr:
-          "متحدث أصلي من اسكتلندا، كين هو المعلم المثالي لأولئك الذين شعروا دائمًا بالرهبة من المتحدثين الأصليين ولكنهم حريصون على البدء في التعلم. بطبيعته اللطيفة والودية، يخلق كين بيئة مريحة وترحيبية حيث يمكنك الشعور بالراحة أثناء بناء ثقتك في التحدث. بفضل خبرته التدريسية الواسعة، يقوم بتصميم الدروس لتناسب احتياجاتك الفردية، وتطوير مواد تعليمية مخصصة تضمن تقدمًا ثابتًا. لن يساعدك كين على إتقان اللغة فحسب، بل سيغمرك أيضًا في الثقافة والعادات الغنية لاسكتلندا، مما يجعل تجربة التعلم الخاصة بك تعليمية وغنية ثقافيًا، مما يجعل اللغة تنبض بالحياة بطريقة طبيعية وممتعة.",
-        image: "",
-      },
-],
-}
+      id: "6",
+      nameEN: "Teresa",
+      nameAr: "تيريزا",
+      titleEn: "General English / IELTS",
+      titleAr: "الإنجليزية العامة / اختبار الآيلتس",
+      descEn:
+        "Teresa is a passionate traveller who views language as a gateway to understanding cultures and perspectives. Her global experiences enrich her teaching, offering real-world context and cultural insights. Whether preparing for travel or connecting with diverse people, Teresa inspires you to see language learning as an exciting journey.",
+      descAr:
+        "تيريزا مسافرة شغوفة ترى اللغة أكثر من مجرد أداة للتواصل، بل هي بوابة لفهم الثقافات ووجهات النظر وأنماط الحياة المختلفة. تؤمن بأنه مع كل لغة جديدة يتم تعلمها، يأتي تقدير أعمق للتقاليد والتاريخ والأشخاص الذين يشكلون العالم. تجاربها العالمية تثري تدريسها، مما يسمح لها بإدخال سياق العالم الحقيقي والرؤى الثقافية والقصص الرائعة في دروسها. سواء كنت تستعد لمغامرة دولية أو ترغب ببساطة في التواصل مع أشخاص من خلفيات متنوعة، ستلهمك تيريزا لرؤية تعلم اللغة كرحلة استكشاف واكتشاف.",
+      image: "",
+      countryEn: "Czech",
+      countryAr: "التشيكية",
+    },
+    {
+      id: "7",
+      nameEN: "Chris",
+      nameAr: "كريس",
+      titleEn: "General English / IELTS",
+      titleAr: "الإنجليزية العامة / اختبار الآيلتس",
+      descEn:
+        "Chris connects with students of all ages, tailoring lessons to their needs and goals. Using creative methods like learning through films, debates, and interactive projects, he makes lessons engaging and practical. Chris ensures every class is exciting, immersive, and effective, helping students develop real language skills.",
+      descAr:
+        "كريس لديه قدرة فريدة على التواصل مع الطلاب من جميع الأعمار، وتصميم الدروس لتناسب أنماط التعلم والأهداف الفردية. مع نهج ديناميكي وإبداعي في التدريس، يتجاوز كريس الأساليب التقليدية، ويدمج تقنيات مبتكرة مثل تعلم اللغة الإنجليزية من خلال الأفلام، والمشاركة في مناقشات مثيرة للتفكير، والعمل على مشاريع تفاعلية. هذه الاستراتيجيات غير التقليدية لا تجعل الدروس أكثر إثارة وغامرة فحسب، بل تساعد الطلاب أيضًا على تطوير مهارات لغوية عملية بطريقة طبيعية وممتعة. سواء كنت تحلل حوارات الأفلام، أو تدافع عن رأيك في مناظرة، أو تتعاون في مشاريع واقعية، يضمن كريس أن كل فصل دراسي محفز وفعال للغاية.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "8",
+      nameEN: "Katie",
+      nameAr: "كيتي",
+      titleEn:
+        "Preparation for international exams / General English for children and adults / Business English",
+      titleAr:
+        "التحضير للاختبارات الدولية / الإنجليزية العامة للأطفال والكبار / الإنجليزية للأعمال",
+      descEn:
+        "Katie speaks English, Italian, and French, making her the perfect guide to immerse you in language. Having taken the IELTS herself, she understands the challenges students face and offers valuable support. Whether tackling exam stress or aiming for fluency, Katie’s approach keeps you comfortable, motivated, and ready to succeed.",
+      descAr:
+        "كيتي تتقن اللغة الإنجليزية والإيطالية والفرنسية، مما يجعلها المرشد المثالي لضمان تحدثك باستمرار والانغماس في اللغة من كل زاوية. شغفها بتعلم اللغة يتجاوز التدريس، فقد خاضت اختبار الآيلتس بنفسها لتفهم حقًا التحديات التي يواجهها الطلاب. هذه التجربة الشخصية تمنحها منظورًا فريدًا، مما يسمح لها بالتعاطف مع رحلتك وتقديم الدعم الذي تحتاجه. سواء كنت تتغلب على ضغوط الاختبار أو تسعى جاهدًا لتحقيق الطلاقة، فإن نهج كيتي الودي يضمن شعورك بالراحة والتحفيز والاستعداد للنجاح في كل خطوة على الطريق.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "9",
+      nameEN: "Dan",
+      nameAr: "دان",
+      titleEn: "General English/ Business and IT/ IELTS preparation",
+      titleAr:
+        "الإنجليزية العامة / الأعمال وتكنولوجيا المعلومات / التحضير لاختبار الآيلتس",
+      descEn:
+        "Dan, with a degree in Business and Management, brings over 15 years of experience as an IELTS trainer. Specialising in corporate training and business writing, he helps students excel in exams and professionals craft standout resumes. His dynamic approach makes business English practical and engaging, ensuring confidence and success in your career or IELTS goals.",
+      descAr:
+        "دان حاصل على شهادة في إدارة الأعمال والإدارة ويجلب معه أكثر من 15 عامًا من الخبرة كمدرب آيلتس، مع تخصص في التدريب المؤسسي والكتابة التجارية. تمتد خبرته من إعداد الطلاب للاختبارات إلى مساعدة المهنيين في صياغة سير ذاتية ورسائل تغطية متميزة تترك انطباعًا دائمًا. مع دان، ستكتشف بسرعة أن اللغة الإنجليزية للأعمال ليست عملية فحسب، بل هي أيضًا جذابة وديناميكية. سواء كنت تتطلع إلى التقدم في حياتك المهنية، أو تحسين مهاراتك في الكتابة، أو التفوق في اختبار الآيلتس، فإن نهج دان المصمم خصيصًا يضمن لك اكتساب الثقة والإتقان في كل جانب من جوانب اللغة الإنجليزية المهنية.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "10",
+      nameEN: "Robert",
+      nameAr: "روبرت",
+      titleEn: "General English/ Business and IT/ IELTS preparation",
+      titleAr:
+        "الإنجليزية العامة / الأعمال وتكنولوجيا المعلومات / التحضير لاختبار الآيلتس",
+      descEn:
+        "Rob is a Cambridge examiner with a focus on pronunciation and real-world language learning. He simplifies complex topics into clear, manageable lessons, making grammar, phonetics, and other skills easy to understand. With his patient, approachable style, Rob helps students build confidence and truly master the language.",
+      descAr:
+        "روبرت هو ممتحن كامبريدج حالي يتمتع بعين ثاقبة للتفاصيل وتركيز قوي على النطق. يؤمن بأن أفضل طريقة لتعلم اللغة هي من خلال نهج طبيعي وغامر يشجع الطلاب على التفاعل مع اللغة في سياقات العالم الحقيقي. بفضل خبرته الواسعة وتخصصه، يجعل روبرت حتى أكثر الموضوعات تعقيدًا في متناول اليد عن طريق تقسيمها إلى دروس واضحة وقابلة للإدارة. سواء كانت قواعد اللغة أو الصوتيات أو مهارات اللغة الأساسية الأخرى، فإنه يضمن شرح كل مفهوم بطريقة مباشرة وسهلة المنال، مما يجعل التعلم فعالاً وممتعًا. أسلوبه التعليمي الصبور واليقظ يساعد الطلاب على بناء الثقة واستيعاب اللغة حقًا، مما يؤهلهم للنجاح.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "11",
+      nameEN: "Michelle",
+      nameAr: "ميشيل",
+      titleEn: "General English/ Business and IT/ IELTS preparation",
+      titleAr:
+        "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
+      descEn:
+        "Mike, a seasoned Cambridge examiner from England with over 20 years of experience, tailors lessons to suit each student’s needs. Passionate about British English, he teaches both language skills and the humour of the culture, helping you speak fluently and make others laugh. His fun and engaging lessons ensure a blend of learning and enjoyment.",
+      descAr:
+        "مايك هو ممتحن كامبريدج مخضرم من إنجلترا يتمتع بخبرة تزيد عن 20 عامًا في التدريس. تتيح له خبرته الواسعة التواصل بسهولة مع الطلاب من جميع الخلفيات، وتصميم نهجه ليناسب الاحتياجات الفردية وأنماط التعلم. بشغف لمشاركة الفروق الثقافية الدقيقة للغة الإنجليزية البريطانية، لا يساعد مايك الطلاب على إتقان المهارات اللغوية فحسب، بل يقدم لهم أيضًا الجانب المرح والفكاهي للغة، ويعلمك كيف تمزح باللغة الإنجليزية بطريقة تجعل الجميع يضحكون - ليس فقط والدتك! تم تصميم دروسه الجذابة لتكون ممتعة وتعليمية، مما يضمن لك بناء الطلاقة مع تبني روح الدعابة وسحر الثقافة البريطانية.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "12",
+      nameEN: "Eric",
+      nameAr: "إريك",
+      titleEn: "General English/ Business and IT/ IELTS preparation",
+      titleAr:
+        "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
+      descEn:
+        "Eric is the ideal English teacher—charismatic, approachable, and professional. With his classic charm, he creates a supportive environment where students thrive. His patient and engaging approach makes lessons enjoyable, helping young learners build strong language skills and confidence.",
+      descAr:
+        "إريك هو المعلم المثالي للغة الإنجليزية - يتمتع بشخصية جذابة وودودة واحترافية.  بفضل سحره الكلاسيكي، يخلق بيئة داعمة حيث يزدهر الطلاب.  نهجه الصبور والجذاب يجعل الدروس ممتعة، مما يساعد المتعلمين الصغار على بناء مهارات لغوية قوية وثقة.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "13",
+      nameEN: "Alexander",
+      nameAr: "ألكسندر",
+      titleEn: "General English/ Business and IT/ IELTS preparation",
+      titleAr:
+        "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
+      descEn:
+        "Alexander is a strict yet fair teacher with expertise in linguistics and history. He focuses on structure and organisation, helping students grasp and apply key concepts. Known for high standards, Alexander challenges students to reach their potential while providing consistent support. His methodical approach ensures success in both linguistic theories and historical contexts.",
+      descAr:
+        "ألكسندر معلم صارم ولكنه عادل يتمتع بخبرة في اللغويات والتاريخ. يركز على الهيكل والتنظيم، مما يساعد الطلاب على فهم وتطبيق المفاهيم الأساسية. يشتهر ألكسندر بمعاييره العالية، ويتحدى الطلاب للوصول إلى إمكاناتهم الكاملة مع توفير الدعم المستمر. يضمن نهجه المنهجي النجاح في كل من النظريات اللغوية والسياقات التاريخية.",
+      image: "",
+      countryEn: "Russia",
+      countryAr: "روسيا",
+    },
+    {
+      id: "14",
+      nameEN: "Ken",
+      nameAr: "كين",
+      titleEn: "General English/ Business and IT/ IELTS preparation",
+      titleAr:
+        "الإنجليزية العامة/ الأعمال وتكنولوجيا المعلومات/ التحضير لاختبار الآيلتس",
+      descEn:
+        "Ken, a native Scottish speaker, is perfect for those who feel intimidated by native speakers but want to learn. With his friendly and approachable nature, he creates a comfortable environment to build your confidence. Ken tailors lessons to your needs, ensuring steady progress while immersing you in Scottish culture for a fun and enriching learning experience.",
+      descAr:
+        "كين، متحدث اسكتلندي أصلي، مثالي لأولئك الذين يشعرون بالخوف من المتحدثين الأصليين ولكنهم يريدون التعلم.  بفضل طبيعته الودودة والودودة، فإنه يخلق بيئة مريحة لبناء ثقتك بنفسك.  يقوم كين بتصميم الدروس وفقًا لاحتياجاتك، مما يضمن تقدمًا مطردًا مع غمرك في الثقافة الاسكتلندية لتجربة تعليمية ممتعة ومثرية.",
+      image: "",
+      countryEn: "Scotland",
+      countryAr: "اسكتلندا",
+    },
+    {
+      id: "15",
+      nameEN: "Polly",
+      nameAr: "بولي",
+      titleEn: "General English / IELTS",
+      titleAr: "الإنجليزية العامة / اختبار الآيلتس",
+      descEn:
+        "Polly is a calm and patient teacher with a passion for learning languages herself. Having faced the challenges of language learning, she tailors lessons to your needs, creating a supportive environment. With her guidance, you’ll build confidence, refine your skills, and improve your English naturally and enjoyably.",
+      descAr:
+        "بولي معلمة هادئة وصبورة ولديها شغف بتعلم اللغات بنفسها.  بعد أن واجهت تحديات تعلم اللغة، فإنها تصمم الدروس وفقًا لاحتياجاتك، مما يخلق بيئة داعمة.  بتوجيهاتها، ستبني الثقة، وتحسن مهاراتك، وتحسن لغتك الإنجليزية بشكل طبيعي وممتع.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "16",
+      nameEN: "Mike",
+      nameAr: "مايك",
+      titleEn: "General English / Business English / IELTS",
+      titleAr: "الإنجليزية العامة / الإنجليزية للأعمال / اختبار الآيلتس",
+      descEn:
+        "With his vast experience in teaching English, Mike knows how to help every student improve, no matter the challenge. Whether you're struggling with grammar, pronunciation, or fluency, he has a way to make it easier and more accessible. His tailored approach ensures learning feels natural, effective, and enjoyable.",
+      descAr:
+        "بفضل خبرته الواسعة في تدريس اللغة الإنجليزية، يعرف مايك كيف يساعد كل طالب على التحسن، بغض النظر عن التحدي.  سواء كنت تعاني من القواعد النحوية أو النطق أو الطلاقة، فلديه طريقة لجعل الأمر أسهل وأكثر سهولة.  يضمن نهجه المخصص أن التعلم يبدو طبيعيًا وفعالًا وممتعًا.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+    {
+      id: "17",
+      nameEN: "Jen",
+      nameAr: "جين",
+      titleEn: "General English / IELTS",
+      titleAr: "الإنجليزية العامة / اختبار الآيلتس",
+      descEn:
+        "Jen is always positive, fun, and full of energy in her classes. She ensures that learning is not only effective but also enjoyable, keeping a smile on your face throughout the process. Constantly innovating, she introduces fresh and exciting methods to keep lessons engaging, dynamic, and tailored to your needs.",
+      descAr:
+        "جين دائمًا إيجابية وممتعة ومليئة بالطاقة في فصولها.  إنها تضمن أن التعلم ليس فعالًا فحسب، بل إنه ممتع أيضًا، مما يبقي الابتسامة على وجهك طوال العملية.  من خلال الابتكار المستمر، تقدم أساليب جديدة ومثيرة للحفاظ على الدروس جذابة وديناميكية ومصممة خصيصًا لاحتياجاتك.",
+      image: "",
+      countryEn: "South Africa",
+      countryAr: "جنوب أفريقيا",
+    },
+    {
+      id: "18",
+      nameEN: "Tim",
+      nameAr: "تيم",
+      titleEn: "General English / Business English / IELTS",
+      titleAr: "الإنجليزية العامة / الإنجليزية للأعمال / اختبار الآيلتس",
+      descEn:
+        "Tim is an incredibly flexible and skilled teacher, dedicated to helping you reach your goals. His teaching approach goes beyond conventional methods, using a variety of techniques to find the one that works best for you. Whether you're focused on improving fluency, mastering grammar, or preparing for exams, Tim adapts to your needs, ensuring a personalised and effective learning experience.",
+      descAr:
+        "تيم معلم مرن وماهر بشكل لا يصدق، وهو مكرس لمساعدتك في الوصول إلى أهدافك.  يتجاوز نهجه في التدريس الأساليب التقليدية، باستخدام مجموعة متنوعة من التقنيات للعثور على الأسلوب الأفضل بالنسبة لك.  سواء كنت تركز على تحسين الطلاقة، أو إتقان القواعد، أو التحضير للامتحانات، فإن تيم يتكيف مع احتياجاتك، مما يضمن تجربة تعليمية مخصصة وفعالة.",
+      image: "",
+      countryEn: "England",
+      countryAr: "إنجلترا",
+    },
+  ],
+};

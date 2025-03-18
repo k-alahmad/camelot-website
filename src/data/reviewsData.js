@@ -2,6 +2,7 @@ const camelotReviewsData = {
   titleEn: "Check What our students reviews",
   titleAr: "تحقق من آراء طلابنا",
   data: [
+    //TODO Update with real data because review data are mock data not the real one
     {
       name: "Sarah Miller",
       icon: "sarah_miller.jpg",
