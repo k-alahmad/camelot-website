@@ -43,7 +43,7 @@ const FAQ = () => {
                     i18n.language == "ar" ? "pr-16" : "pl-16"
                   } ${
                     isExpanded == index
-                      ? "h-[200px] md:h-[130px] lg:h-[100px] xl:h-[75px]"
+                      ? "h-[195px] sm:h-[80px] md:h-[130px] lg:h-[100px] xl:h-[75px]"
                       : "h-0"
                   }`}
                 >

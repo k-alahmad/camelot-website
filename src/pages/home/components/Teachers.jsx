@@ -30,7 +30,7 @@ const Teachers = () => {
           infinite={true}
           centerPadding="60px"
           slidesToShow={5}
-          speed={500}
+          speed={300}
           touchMove={true}
           nextArrow={<SampleNextArrow />}
           prevArrow={<SamplePrevArrow />}

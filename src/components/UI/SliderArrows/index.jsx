@@ -7,7 +7,7 @@ export const SampleNextArrow = ({ onClick }) => {
       className="absolute cursor-pointer z-10 right-2 top-1/2 -translate-y-1/2 rounded-full bg-primary/90"
       onClick={onClick}
     >
-      <FaAngleRight className="text-secondary" size={30} />
+      <FaAngleRight className="text-secondary text-med lg:text-big" />
     </div>
   );
 };
@@ -17,7 +17,7 @@ export const SamplePrevArrow = ({ onClick }) => {
       className="absolute cursor-pointer z-10 left-2 top-1/2 -translate-y-1/2 rounded-full bg-primary/90"
       onClick={onClick}
     >
-      <FaAngleLeft className="text-secondary" size={30} />
+      <FaAngleLeft className="text-secondary text-med lg:text-big" />
     </div>
   );
 };
