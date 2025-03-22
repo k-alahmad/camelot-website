@@ -50,8 +50,8 @@ const FAQ = () => {
                   {i18n.language == "en" ? item.answerEN : item.answerAR}
                 </div>
               </div>
-              {faqData.length > index + 1 && (
-                <div className="w-full h-px bg-primary" />
+              {faqData.questions.length > index + 1 && (
+                <div className="w-full h-px bg-black" />
               )}
             </React.Fragment>
           );

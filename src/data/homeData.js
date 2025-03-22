@@ -1,14 +1,14 @@
-import heroOne from "../assets/images/hero-main-1.jpg";
-import heroTwo from "../assets/images/hero-sub-top.jpg";
+import heroOne from "../assets/images/hero-main-1.webp";
+import heroTwo from "../assets/images/hero-sub-top.webp";
 
-import sampleTest from "../assets/images/pass-exam.png";
+import sampleTest from "../assets/images/pass-exam.webp";
 
 import howOne from "../assets/icons/howOne.svg";
 import howTwo from "../assets/icons/howTwo.svg";
 import howThree from "../assets/icons/howThree.svg";
 import howFour from "../assets/icons/howFour.svg";
 
-import howToSpeak from "../assets/images/howToSpeak.jpg";
+import howToSpeak from "../assets/images/howToSpeak.webp";
 
 import { systemSettings } from "../settings";
 export const homeData = {

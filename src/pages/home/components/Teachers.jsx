@@ -6,8 +6,8 @@ import {
   SampleNextArrow,
   SamplePrevArrow,
 } from "../../../components/UI/SliderArrows";
-import male from "../../../assets/images/male.jpg";
-import female from "../../../assets/images/female.jpg";
+import male from "../../../assets/images/male.webp";
+import female from "../../../assets/images/female.webp";
 import { useDispatch } from "react-redux";
 import { showFilterModal } from "../../../redux/modal.slice";
 const Teachers = () => {

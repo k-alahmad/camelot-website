@@ -1,4 +1,4 @@
-import image from "../assets/images/second.jpg";
+import image from "../assets/images/second.webp";
 import individual from "../assets/icons/individual.svg";
 import Personal from "../assets/icons/Personal.svg";
 import hobby from "../assets/icons/hobby.svg";
