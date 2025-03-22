@@ -1,4 +1,4 @@
-const faqData = {
+export const faqData = {
   titleEN: "Answers to Questions",
   titleAR: "إجابات على الأسئلة",
   questions: [
