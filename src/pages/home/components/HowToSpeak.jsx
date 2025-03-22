@@ -47,7 +47,7 @@ const HowToSpeak = () => {
                 </div>
               </div>
               {/* <p className="text-smaller md:text-small text-center font-bold [text-shadow:_0_2px_2px_rgb(0_0_0_/_0.8)] leading-snug font-manrope font-extrabold"> */}
-              <p className="text-smaller md:text-small xl:text-[25px] text-center font-bold">
+              <p className="text-smaller md:text-small xl:text-[25px] text-center font-medium">
                 {i18n.language == "ar" ? item.titleAr : item.titleEn}
               </p>
             </div>
