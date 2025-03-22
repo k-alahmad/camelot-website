@@ -25,7 +25,7 @@ const Header = () => {
         />
       </svg>
 
-      <div className="text-white space-y-4 xl:max-w-[500px] flex flex-col justify-center items-center">
+      <div className="text-white space-y-6 xl:max-w-[500px] flex flex-col justify-center items-center">
         <p className="text-med sm:text-big lg:text-bigger font-bold text-center">
           {i18n.language == "ar"
             ? homeData.HeroSection.titleAr
@@ -43,7 +43,7 @@ const Header = () => {
             : homeData.HeroSection.subTitleTwoEn}
         </p>
         <div className="w-full flex justify-center items-center">
-          <button className="w-full max-w-[200px] text-center p-2 bg-secondary text-primary rounded-lg text-tiny lg:text-smaller font-bold">
+          <button className="w-full max-w-[200px] text-center p-2 bg-secondary text-primary rounded-lg text-tiny lg:text-smaller font-bold z-30">
             {i18n.language == "ar"
               ? homeData.HeroSection.buttonNameAr
               : homeData.HeroSection.buttonNameEn}

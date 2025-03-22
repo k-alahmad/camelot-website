@@ -31,7 +31,7 @@ const SampleTest = () => {
         <img
           src={homeData.TestSection.mainImage}
           alt={homeData.TestSection.mainImageAlt}
-          className="md:absolute md:left-1/2 md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 md:h-[400px] md:w-full object-contain md:scale-125 lg:scale-100 "
+          className="md:absolute md:left-1/2 md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 md:h-[400px] md:w-full object-contain md:scale-125 2xl:scale-100 "
         />
       </div>
     </div>
