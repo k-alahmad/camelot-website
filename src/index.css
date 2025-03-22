@@ -34,7 +34,7 @@ body {
 }
 :root {
   --primary: transparent;
-  --secondary: #e6ddc8;
+  --secondary: #004368;
 }
 * {
   scrollbar-width: thin;

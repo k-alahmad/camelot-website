@@ -17,6 +17,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
     {
       id: "2",
@@ -33,6 +34,7 @@ export const teachersData = {
       image: "",
       countryEn: "USA",
       countryAr: "امريكا",
+      gender: "male",
     },
     {
       id: "3",
@@ -47,6 +49,7 @@ export const teachersData = {
       image: "",
       countryEn: "Russia",
       countryAr: "روسيا",
+      gender: "female",
     },
     {
       id: "4",
@@ -61,6 +64,7 @@ export const teachersData = {
       image: "",
       countryEn: "Russia",
       countryAr: "روسيا",
+      gender: "female",
     },
     {
       id: "5",
@@ -75,6 +79,7 @@ export const teachersData = {
       image: "",
       countryEn: "Russia",
       countryAr: "روسيا",
+      gender: "female",
     },
     {
       id: "6",
@@ -89,6 +94,7 @@ export const teachersData = {
       image: "",
       countryEn: "Czech",
       countryAr: "التشيكية",
+      gender: "female",
     },
     {
       id: "7",
@@ -103,6 +109,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
     {
       id: "8",
@@ -119,6 +126,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "female",
     },
     {
       id: "9",
@@ -134,6 +142,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
     {
       id: "10",
@@ -149,6 +158,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
     {
       id: "11",
@@ -164,6 +174,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
     {
       id: "12",
@@ -179,6 +190,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
     {
       id: "13",
@@ -194,6 +206,7 @@ export const teachersData = {
       image: "",
       countryEn: "Russia",
       countryAr: "روسيا",
+      gender: "male",
     },
     {
       id: "14",
@@ -209,6 +222,7 @@ export const teachersData = {
       image: "",
       countryEn: "Scotland",
       countryAr: "اسكتلندا",
+      gender: "male",
     },
     {
       id: "15",
@@ -223,6 +237,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "female",
     },
     {
       id: "16",
@@ -237,6 +252,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
     {
       id: "17",
@@ -251,6 +267,7 @@ export const teachersData = {
       image: "",
       countryEn: "South Africa",
       countryAr: "جنوب أفريقيا",
+      gender: "female",
     },
     {
       id: "18",
@@ -265,6 +282,7 @@ export const teachersData = {
       image: "",
       countryEn: "England",
       countryAr: "إنجلترا",
+      gender: "male",
     },
   ],
 };

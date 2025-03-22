@@ -1,10 +1,22 @@
 import React from "react";
-import HomeHeader from "./components/homeHeader";
+import Header from "./components/Header";
+import WWYG from "./components/WWYG";
+// import TrialLesson from "./components/TrialLesson";
+import TrialLessons from "./components/TrialLessons";
+import SampleTest from "./components/SampleTest";
+import HowToSpeak from "./components/HowToSpeak";
+import Teachers from "./components/Teachers";
 
 const HomePage = () => {
   return (
     <div>
-      <HomeHeader />
+      <Header />
+      <WWYG />
+      {/* <TrialLesson /> */}
+      <TrialLessons />
+      <SampleTest />
+      <HowToSpeak />
+      <Teachers />
     </div>
   );
 };

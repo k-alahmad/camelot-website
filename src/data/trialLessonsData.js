@@ -1,9 +1,12 @@
+import lessonOne from "../assets/icons/lessonOne.svg";
+import lessonTwo from "../assets/icons/lessonTwo.svg";
+import lessonThree from "../assets/icons/lessonThree.svg";
 export const trialLessonData = {
   titleEn: "Sign up for a trial lesson if:",
   titleAr: "سجل للحصول على درس تجريبي في حال: ",
   lessons: [
     {
-      icon: "",
+      icon: lessonOne,
       titleEn: "You are taking IELTS soon",
       titleAr: "ستخوض اختبار الآيلتس قريباً",
       descEn:
@@ -12,7 +15,7 @@ export const trialLessonData = {
         "استعد مع ممتحن آيلتس متمرس يعرف الاستراتيجيات الداخلية لتحقيق درجات عالية، ويقدم ملاحظات مخصصة وتقنيات مثبتة لمساعدتك على النجاح.",
     },
     {
-      icon: "",
+      icon: lessonTwo,
       titleEn: "Do you dream of entering a foreign university?",
       titleAr: "هل تحلم بالالتحاق بجامعة أجنبية؟",
       descEn:
@@ -21,7 +24,7 @@ export const trialLessonData = {
         "اجتز أي اختبار قبول بثقة، وستكون مستعدًا جيدًا للتفوق في دراستك. مع الإعداد والمهارات المناسبة، لن تنجح في الاختبار فحسب، بل ستشعر أيضًا بالاستعداد لمواجهة التحديات المقبلة في رحلتك الأكاديمية.",
     },
     {
-      icon: "",
+      icon: lessonThree,
       titleEn: "You work in an international company",
       titleAr: "أنت تعمل في شركة دولية",
       descEn:

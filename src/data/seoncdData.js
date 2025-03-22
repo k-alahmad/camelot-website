@@ -1,10 +1,14 @@
-const secondData = {
+import image from "../assets/images/second.jpg";
+import individual from "../assets/icons/individual.svg";
+import Personal from "../assets/icons/Personal.svg";
+import hobby from "../assets/icons/hobby.svg";
+export const secondData = {
   titleEn: "What will you get?",
   titleAr: "ماذا ستحصل؟",
-  image: "",
+  image: image,
   steps: [
     {
-      icons: "",
+      icons: individual,
       titleEn: "Individual plan",
       titleAr: "خطة الأفراد",
       descriptionEn:
@@ -14,7 +18,7 @@ const secondData = {
         "نُصمّم نهجنا بما يتناسب مع أسلوبك التعليمي الفريد، ونختار لك الطريقة الأنسب. سواءً كنتَ تُبدع في مجموعات أو بشكل فردي، أو تُفضّل الدروس عبر الإنترنت أو الحضور الشخصي، فإننا نُكيّف أنفسنا لنُهيئ لك بيئة تعليمية مثالية لنجاحك.",
     },
     {
-      icons: "",
+      icons: Personal,
       titleEn: "Help at every step",
       titleAr: "معك في كل خطوة",
       descriptionEn:
@@ -23,7 +27,7 @@ const secondData = {
         "لن تكون وحيدًا أبدًا في رحلة التعلم! بالإضافة إلى مُعلّمك، فريقنا المُتفاني موجود دائمًا لدعمك، والإجابة على أسئلتك، وتخطي التحديات، وتحفيزك في كل خطوة.",
     },
     {
-      icons: "",
+      icons: hobby,
       titleEn: "Fun and enjoyable classes! ",
       titleAr: "دروس ممتعة ومسلية!",
       descriptionEn:
