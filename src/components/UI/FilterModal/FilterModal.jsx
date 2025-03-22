@@ -32,9 +32,13 @@ export default function FilterModal() {
           open ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
         } transition-all duration-300 justify-center items-center flex fixed inset-0 z-40 outline-none focus:outline-none w-full`}
       >
+        {/* <div
+          ref={ref}
+          className="rounded-xl shadow-xl relative flex flex-col z-50 outline-none focus:outline-none overflow-hidden bg-secondary backdrop-blur-sm h-full max-h-[80vh] w-full max-w-[90vw]"
+        > */}
         <div
           ref={ref}
-          className="rounded-xl shadow-xl relative flex flex-col z-50 outline-none focus:outline-none overflow-hidden bg-secondary/50 backdrop-blur-sm h-full max-h-[80vh] w-full max-w-[90vw]"
+          className="rounded-xl shadow-xl relative flex flex-col z-50 outline-none focus:outline-none overflow-hidden bg-secondary h-auto w-auto max-h-[90vh] max-w-[90vw] md:max-w-[600px]"
         >
           <div
             onClick={() => {

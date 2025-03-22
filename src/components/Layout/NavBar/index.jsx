@@ -30,7 +30,7 @@ const NavBar = () => {
       <div className="w-full">
         <div
           dir={i18n.language == "en" ? "ltr" : "rtl"}
-          className={`fixed max-w-[1920px] top-0 left-1/2 -translate-x-1/2 z-50 flex justify-center items-center gap-x-2 sm:gap-x-6 transition-all duration-300 p-4 2xl:p-5 md:justify-between text-white w-full h-[75px] 2xl:h-[80px] px-[3%] bg-primary ${
+          className={`fixed max-w-[1920px] top-0 left-1/2 -translate-x-1/2 z-40 flex justify-center items-center gap-x-2 sm:gap-x-6 transition-all duration-300 p-4 2xl:p-5 md:justify-between text-white w-full h-[75px] 2xl:h-[80px] px-[3%] bg-primary ${
             header ? "shadow-lg" : "shadow-none"
           }`}
         >
