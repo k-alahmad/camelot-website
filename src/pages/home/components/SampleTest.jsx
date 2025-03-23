@@ -6,7 +6,7 @@ const SampleTest = () => {
   return (
     <div
       dir={i18n.language == "ar" ? "rtl" : "ltr"}
-      className="mt-24 w-full bg-primary grid md:grid-cols-5 place-items-center text-fifth xl:px-[10%]"
+      className="mt-24 w-full bg-primary grid md:grid-cols-5 place-items-center text-fifth xl:px-[10%] overflow-x-clip"
     >
       <div className="md:col-span-3 p-[5%] xl:p-10 space-y-6 text-center md:text-start">
         <p className="text-med md:text-big font-bold">

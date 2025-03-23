@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import MessageBox from "../../UI/Message";
 import { useLocation } from "react-router-dom";
 import FilterModal from "../../UI/FilterModal/FilterModal";
+import { FaWhatsapp } from "react-icons/fa";
 
 const PageLayout = ({ children }) => {
   const location = useLocation();
@@ -19,6 +20,13 @@ const PageLayout = ({ children }) => {
       <FilterModal />
       <div className="min-h-screen w-full max-w-[1920px]">{children}</div>
       <Footer />
+
+      <div
+        className="fixed bottom-5 right-5 bg-green-600 rounded-full p-2 z-50 cursor-pointer"
+        onClick={() => {}}
+      >
+        <FaWhatsapp className="text-med md:text-big text-white" />
+      </div>
     </div>
   );
 };

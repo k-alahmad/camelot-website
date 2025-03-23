@@ -51,7 +51,7 @@ const NavBar = () => {
               return (
                 <p
                   key={index}
-                  className="cursor-pointer text-tiny md:text-smaller max-md:hidden"
+                  className="cursor-pointer text-tiny md:text-smaller max-lg:hidden"
                   onClick={() => {
                     handleScroll(e.link);
                   }}
@@ -63,7 +63,7 @@ const NavBar = () => {
             <Dropdown />
             <div
               onClick={() => setMobileOpen(true)}
-              className="cursor-pointer text-secondary flex justify-center items-center gap-x-2 md:hidden"
+              className="cursor-pointer text-secondary flex justify-center items-center gap-x-2 lg:hidden"
             >
               <MdDehaze size={24} />
             </div>
