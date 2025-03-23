@@ -88,15 +88,16 @@ const Teachers = () => {
             {
               breakpoint: 500,
               settings: {
-                slidesToShow: 1,
-                centerPadding: "150px",
+                centerPadding: 0,
+                centerMode: false,
               },
             },
             {
               breakpoint: 400,
               settings: {
                 slidesToShow: 1,
-                centerPadding: "80px",
+                centerPadding: 0,
+                centerMode: false,
               },
             },
           ]}
