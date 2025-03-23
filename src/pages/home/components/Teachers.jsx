@@ -32,8 +32,9 @@ const Teachers = () => {
           infinite={true}
           centerPadding="60px"
           slidesToShow={5}
+          slidesToScroll={1}
           speed={300}
-          touchMove={true}
+          touchMove={false}
           nextArrow={<SampleNextArrow />}
           prevArrow={<SamplePrevArrow />}
           beforeChange={(current, next) => setImageIndex(next)}
