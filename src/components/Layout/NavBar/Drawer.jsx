@@ -1,6 +1,6 @@
 import React from "react";
 import { MdClose } from "react-icons/md";
-import Logo from "../../../assets/logos/camelotLogoWhite.png";
+import Logo from "../../../assets/logos/LogoShort.png";
 import { useTranslation } from "react-i18next";
 export default function Drawer({ children, isOpen, setIsOpen }) {
   const { i18n } = useTranslation();
@@ -30,7 +30,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
               }  `)
         }
       >
-        <article className="relative w-full pb-10 flex flex-col justify-start items-center space-y-6 overflow-y-scroll h-full bg-secondary/80 backdrop-blur-sm">
+        <article className="relative w-full pb-10 flex flex-col justify-start items-center space-y-6 overflow-y-scroll h-full bg-third/80 backdrop-blur-sm">
           <header
             dir={i18n.language == "en" ? "ltr" : "rtl"}
             className="p-4 font-semibold w-full flex justify-between items-center "
@@ -43,7 +43,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
               className="cursor-pointer text-white"
             />
             <img
-              className="h-[40px] w-[100px] cursor-pointer"
+              className="h-[20px] w-[100px] cursor-pointer"
               src={Logo}
               alt="LOGO"
             />

@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Drawer from "./Drawer";
-import LinkElement from "./LinkElement";
 import { MdDehaze } from "react-icons/md";
 import { handleScroll } from "../../../helpers/scroll";
 import { NavElement } from "../../../data/navData";
 import Logo from "../../../assets/logos/LogoShort.png";
 import { useNavigate } from "react-router-dom";
+import Dropdown from "./Language";
+
 const NavBar = () => {
   const { t, i18n } = useTranslation();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -30,7 +31,7 @@ const NavBar = () => {
       <div className="w-full">
         <div
           dir={i18n.language == "en" ? "ltr" : "rtl"}
-          className={`fixed max-w-[1920px] top-0 left-1/2 -translate-x-1/2 z-40 flex justify-center items-center gap-x-2 sm:gap-x-6 transition-all duration-300 p-4 2xl:p-5 md:justify-between text-white w-full h-[75px] 2xl:h-[80px] px-[3%] bg-primary ${
+          className={`fixed max-w-[1920px] top-0 left-1/2 -translate-x-1/2 z-40 flex items-center gap-x-2 sm:gap-x-6 transition-all duration-300 p-4 2xl:p-5 justify-between text-white w-full h-[75px] 2xl:h-[80px] px-[3%] bg-primary ${
             header ? "shadow-lg" : "shadow-none"
           }`}
         >
@@ -43,28 +44,26 @@ const NavBar = () => {
             }}
           />
           <div
-            className="flex justify-center items-center gap-x-8 2xl:gap-x-12 max-md:hidden"
+            className="flex justify-center items-center gap-x-8 2xl:gap-x-12"
             dir={i18n.language == "en" ? "ltr" : "rtl"}
           >
             {NavElement.map((e, index) => {
               return (
-                <LinkElement
+                <p
                   key={index}
-                  name={t(e.name)}
-                  link={e.link}
-                  styled={"max-lg:hidden"}
+                  className="cursor-pointer text-tiny md:text-smaller max-md:hidden"
                   onClick={() => {
                     handleScroll(e.link);
                   }}
-                />
+                >
+                  {t(e.name)}
+                </p>
               );
             })}
-          </div>
-
-          <div className="flex justify-center items-center gap-x-2 sm:gap-x-6 lg:hidden">
+            <Dropdown />
             <div
               onClick={() => setMobileOpen(true)}
-              className="cursor-pointer text-primary flex justify-center items-center gap-x-2 "
+              className="cursor-pointer text-secondary flex justify-center items-center gap-x-2 md:hidden"
             >
               <MdDehaze size={24} />
             </div>
@@ -73,17 +72,16 @@ const NavBar = () => {
       </div>
 
       <Drawer isOpen={mobileOpen} setIsOpen={setMobileOpen}>
-        {NavElement.map((e) => (
-          <LinkElement
-            key={e.link}
-            name={t(e.name)}
-            link={e.link}
-            styled={"!text-white"}
+        {NavElement.map((e, index) => (
+          <p
+            key={index}
+            className="cursor-pointer text-smaller text-white"
             onClick={() => {
-              setMobileOpen(false);
               handleScroll(e.link);
             }}
-          />
+          >
+            {t(e.name)}
+          </p>
         ))}
       </Drawer>
     </>

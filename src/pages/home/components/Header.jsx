@@ -2,12 +2,13 @@ import React from "react";
 import { homeData } from "../../../data/homeData";
 import sound from "../../../assets/images/sound.svg";
 import { useTranslation } from "react-i18next";
+import { handleScroll } from "../../../helpers/scroll";
 const Header = () => {
   const { i18n } = useTranslation();
   return (
     <div
       id="Header"
-      className="w-full h-screen md:h-[90vh] bg-primary grid md:grid-cols-2 gap-10 place-items-center px-5 lg:px-[5%] relative overflow-hidden"
+      className="w-full h-screen pt-6 md:pt-10 bg-primary grid md:grid-cols-2 gap-10 place-items-center px-5 lg:px-[5%] relative overflow-hidden"
     >
       <svg
         width="607"
@@ -43,7 +44,12 @@ const Header = () => {
             : homeData.HeroSection.subTitleTwoEn}
         </p>
         <div className="w-full flex justify-center items-center">
-          <button className="w-full max-w-[200px] text-center p-2 bg-secondary text-primary rounded-lg text-tiny lg:text-smaller font-bold z-30">
+          <button
+            onClick={() => {
+              handleScroll("signup");
+            }}
+            className="w-full max-w-[200px] text-center p-2 bg-secondary text-primary rounded-lg text-tiny lg:text-smaller font-bold z-30"
+          >
             {i18n.language == "ar"
               ? homeData.HeroSection.buttonNameAr
               : homeData.HeroSection.buttonNameEn}

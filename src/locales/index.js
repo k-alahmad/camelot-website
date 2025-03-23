@@ -96,6 +96,11 @@ i18n.use(initReactI18next).init({
         badges: "الشارات",
         footer:
           "هذا الموقع هو مبادرة من مختبر التسريع برنامج الأمم المتحدة الإنمائي في سورية بالتعاون مع نقابة المهندسين السوريين (OSEA) مشروع بناء قدرات المهندسين في الجنهورية العربية السورية.",
+        AboutSchool: "تعرف علينا",
+        SampleTest: "اختبار",
+        Newbie: "مبتدئ؟",
+        Teachers: "المدرسين",
+        FAQs: "الأسئلة الشائعة",
       },
     },
     en: {
@@ -188,6 +193,11 @@ i18n.use(initReactI18next).init({
         badges: "Badges",
         footer:
           "This website is an initiative of the UNDP Syria Accelerator Lab in collaboration with the Syrian Engineers Association (OSEA).",
+        AboutSchool: "About School",
+        SampleTest: "Sample Test",
+        Newbie: "Newbie?",
+        Teachers: "Teachers",
+        FAQs: "FAQs",
       },
     },
   },

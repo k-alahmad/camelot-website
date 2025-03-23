@@ -9,8 +9,8 @@ import howThree from "../assets/icons/howThree.svg";
 import howFour from "../assets/icons/howFour.svg";
 
 import howToSpeak from "../assets/images/howToSpeak.webp";
-
 import { systemSettings } from "../settings";
+import logo from "../assets/logos/camelotLogoWhite.png";
 export const homeData = {
   HeroSection: {
     titleEn: "English Language School CAMELOT",
@@ -81,21 +81,7 @@ export const homeData = {
   },
   Footer: {
     left: {
-      logo: "/path/to/your/logo.png",
-      socialLinks: [
-        {
-          icon: "facebook",
-          link: "https://www.facebook.com/yourpage",
-        },
-        {
-          icon: "twitter",
-          link: "https://twitter.com/yourpage",
-        },
-        {
-          icon: "instagram",
-          link: "https://www.instagram.com/yourpage",
-        },
-      ],
+      logo: logo,
       copyrightEn: "Copyright 2020 by Camelot English School.",
       copyrightAr: "جميع الحقوق محفوظة لمدرسة كاميلوت لتعليم اللغة الانكليزية.",
       companyInfo: {
@@ -104,30 +90,6 @@ export const homeData = {
         inn: "INN 7841089419",
         ogrn: "OGRN 1207800078188",
       },
-    },
-    middle: {
-      menuNavigation: [
-        {
-          textEn: "Home",
-          textAr: "Home",
-          link: "/",
-        },
-        {
-          textEn: "Courses",
-          textAr: "Courses",
-          link: "/courses",
-        },
-        {
-          textEn: "Teachers",
-          textAr: "Teachers",
-          link: "/teachers",
-        },
-        {
-          textEn: "Contact",
-          textAr: "Contact",
-          link: "/contact",
-        },
-      ],
     },
     right: {
       contactUs: {

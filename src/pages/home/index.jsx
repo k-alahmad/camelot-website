@@ -13,13 +13,19 @@ const HomePage = () => {
   return (
     <div>
       <Header />
+      <div id="aboutSchool" />
       <WWYG />
       {/* <TrialLesson /> */}
       <TrialLessons />
+      <div id="sampleTest" />
       <SampleTest />
+      <div id="newbie" />
       <HowToSpeak />
+      <div id="teachers" />
       <Teachers />
+      <div id="signup" />
       <SignUp />
+      <div id="faq" />
       <FAQ />
     </div>
   );

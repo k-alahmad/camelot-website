@@ -33,7 +33,7 @@ export default function Dropdown() {
       <div className="relative">
         <div
           style={{ WebkitTapHighlightColor: "transparent" }}
-          className="p-0 m-0 relative text-third text-center cursor-pointer"
+          className="p-0 m-0 relative text-white text-center cursor-pointer"
           onClick={() => setOpen(!open)}
         >
           <MdLanguage size={24} />

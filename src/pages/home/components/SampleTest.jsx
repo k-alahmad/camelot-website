@@ -4,7 +4,10 @@ import { useTranslation } from "react-i18next";
 const SampleTest = () => {
   const { i18n } = useTranslation();
   return (
-    <div className="mt-24 w-full bg-primary grid md:grid-cols-5 place-items-center text-fifth xl:px-[10%]">
+    <div
+      dir={i18n.language == "ar" ? "rtl" : "ltr"}
+      className="mt-24 w-full bg-primary grid md:grid-cols-5 place-items-center text-fifth xl:px-[10%]"
+    >
       <div className="md:col-span-3 p-[5%] xl:p-10 space-y-6 text-center md:text-start">
         <p className="text-med md:text-big font-bold">
           {i18n.language == "ar"

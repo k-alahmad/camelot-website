@@ -5,7 +5,10 @@ const HowToSpeak = () => {
   const { i18n } = useTranslation();
 
   return (
-    <div className="my-24 px-[5%] relative">
+    <div
+      dir={i18n.language == "ar" ? "rtl" : "ltr"}
+      className="my-24 px-[5%] relative"
+    >
       <div className="flex flex-col items-start justify-start space-y-3">
         <p className="text-third text-big lg:text-bigger font-bold">
           {i18n.language == "ar"

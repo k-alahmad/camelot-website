@@ -71,7 +71,10 @@ const SignUp = () => {
   }
   const { t, i18n } = useTranslation();
   return (
-    <div className="px-[%] mt-24 bg-fourth grid md:grid-cols-2 text-white min-h-[400px]">
+    <div
+      dir={i18n.language == "ar" ? "rtl" : "ltr"}
+      className="mt-6 md:mt-12 bg-fourth grid md:grid-cols-2 text-white min-h-[400px]"
+    >
       <div className="p-[5%] w-full h-full flex flex-col justify-evenly items-start space-y-6">
         <p className="text-med lg:text-big font-bold">
           {i18n.language == "ar"
@@ -114,7 +117,7 @@ const SignUp = () => {
           disabled={disabled}
           onClick={handleSubmit}
         >
-          {isLoading ? t("Sending") : t("Send")}
+          {isLoading ? t("sending") : t("send")}
           {!isLoading && (
             <MdSend
               className={`${

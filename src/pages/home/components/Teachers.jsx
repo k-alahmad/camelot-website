@@ -16,13 +16,15 @@ const Teachers = () => {
   const dispatch = useDispatch();
 
   return (
-    <div dir={i18n.language == "ar" ? "rtl" : "ltr"} className="mt-24">
-      <p className="text-third text-big lg:text-bigger font-bold px-[5%]">
-        {i18n.language == "ar" ? "المعلمون" : "Teachers"}
-      </p>
-      <p className="text-third text-smaller lg:text-small font-medium xl:w-3/4 px-[5%]">
-        {i18n.language == "ar" ? teachersData.titleAr : teachersData.titleEn}
-      </p>
+    <div className="mt-24">
+      <div dir={i18n.language == "ar" ? "rtl" : "ltr"}>
+        <p className="text-third text-big lg:text-bigger font-bold px-[5%]">
+          {i18n.language == "ar" ? "المعلمون" : "Teachers"}
+        </p>
+        <p className="text-third text-smaller lg:text-small font-medium xl:w-3/4 px-[5%]">
+          {i18n.language == "ar" ? teachersData.titleAr : teachersData.titleEn}
+        </p>
+      </div>
       <div className="h-[500px]">
         <Slider
           className="w-full h-full"
@@ -102,6 +104,7 @@ const Teachers = () => {
           {teachersData.teachers.map((item, index) => {
             return (
               <div
+                dir={i18n.language == "ar" ? "rtl" : "ltr"}
                 key={index}
                 className={`w-[260px] sm:w-[300px] !flex !justify-center !items-center transition-all duration-500 py-28  ${
                   index == imageIndex
@@ -142,7 +145,10 @@ const Teachers = () => {
                         dispatch(
                           showFilterModal({
                             data: (
-                              <div className="space-y-5 p-[5%]">
+                              <div
+                                dir={i18n.language == "ar" ? "rtl" : "ltr"}
+                                className="space-y-5 p-[5%]"
+                              >
                                 <div className="flex max-sm:flex-col sm:justify-center sm:items-center gap-x-5">
                                   <img
                                     src={
