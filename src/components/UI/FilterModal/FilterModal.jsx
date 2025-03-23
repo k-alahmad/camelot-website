@@ -29,7 +29,7 @@ export default function FilterModal() {
     <>
       <div
         className={`${
-          open ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+          open ? "scale-100 opacity-100" : "scale-0 opacity-0"
         } transition-all duration-300 justify-center items-center flex fixed inset-0 z-40 outline-none focus:outline-none w-full`}
       >
         {/* <div
@@ -56,8 +56,8 @@ export default function FilterModal() {
       <div
         className={`${
           open ? "scale-100" : "scale-0"
-        } opacity-20 fixed h-screen inset-0 z-0 bg-black`}
-      ></div>
+        } fixed h-screen inset-0 z-0 bg-black/30`}
+      />
     </>
   );
 }

@@ -115,7 +115,7 @@ const Teachers = () => {
                 }`}
               >
                 <div className="rounded-xl overflow-hidden border-secondary border-2 w-full flex flex-col justify-center items-center max-w-[200px]">
-                  <img
+                  {/* <img
                     src={
                       item.gender == "male"
                         ? item.image !== ""
@@ -127,7 +127,8 @@ const Teachers = () => {
                     }
                     alt={item.nameEN}
                     className={`h-[150px] w-full object-cover object-top`}
-                  />
+                  /> */}
+                  <div className="h-[150px] w-full" />
                   <div
                     className={`w-full bg-secondary p-5 space-y-3 transition-all duration-300  ${
                       index == imageIndex
