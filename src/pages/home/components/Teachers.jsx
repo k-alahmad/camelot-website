@@ -90,6 +90,7 @@ const Teachers = () => {
               settings: {
                 centerPadding: 0,
                 centerMode: false,
+                speed: 500,
               },
             },
             {
@@ -98,6 +99,7 @@ const Teachers = () => {
                 slidesToShow: 1,
                 centerPadding: 0,
                 centerMode: false,
+                speed: 500,
               },
             },
           ]}
@@ -110,7 +112,7 @@ const Teachers = () => {
                 className={`w-[260px] sm:w-[300px] !flex !justify-center !items-center transition-all duration-500 py-28  ${
                   index == imageIndex
                     ? "md:scale-[1.3] 2xl:scale-[1.5] opacity-100 relative z-10"
-                    : "scale-[0.7] md:scale-[1] 2xl:scale-[1.2] opacity-[1]"
+                    : "scale-1 md:scale-[1] 2xl:scale-[1.2] opacity-[1]"
                 }`}
               >
                 <div className="rounded-xl overflow-hidden border-secondary border-2 w-full flex flex-col justify-center items-center max-w-[200px]">
