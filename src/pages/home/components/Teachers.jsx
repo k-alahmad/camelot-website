@@ -88,18 +88,15 @@ const Teachers = () => {
             {
               breakpoint: 500,
               settings: {
-                centerPadding: 0,
-                centerMode: false,
-                speed: 500,
+                slidesToShow: 1,
+                centerPadding: "150px",
               },
             },
             {
               breakpoint: 400,
               settings: {
                 slidesToShow: 1,
-                centerPadding: 0,
-                centerMode: false,
-                speed: 500,
+                centerPadding: "80px",
               },
             },
           ]}
@@ -112,7 +109,7 @@ const Teachers = () => {
                 className={`w-[260px] sm:w-[300px] !flex !justify-center !items-center transition-all duration-500 py-28  ${
                   index == imageIndex
                     ? "md:scale-[1.3] 2xl:scale-[1.5] opacity-100 relative z-10"
-                    : "scale-1 md:scale-[1] 2xl:scale-[1.2] opacity-[1]"
+                    : "scale-[0.7] md:scale-[1] 2xl:scale-[1.2] opacity-[1]"
                 }`}
               >
                 <div className="rounded-xl overflow-hidden border-secondary border-2 w-full flex flex-col justify-center items-center max-w-[200px]">
@@ -133,7 +130,7 @@ const Teachers = () => {
                     className={`w-full bg-secondary p-5 space-y-3 transition-all duration-300  ${
                       index == imageIndex
                         ? "h-[140px] md:h-[150px]"
-                        : "h-[140px] md:h-[60px]"
+                        : "h-[50px] md:h-[60px]"
                     }`}
                   >
                     <p className="font-bold text-tiny md:text-smaller capitalize">
