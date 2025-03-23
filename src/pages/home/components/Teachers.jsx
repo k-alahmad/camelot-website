@@ -34,7 +34,7 @@ const Teachers = () => {
           slidesToShow={5}
           slidesToScroll={1}
           speed={300}
-          touchMove={false}
+          touchMove={true}
           nextArrow={<SampleNextArrow />}
           prevArrow={<SamplePrevArrow />}
           beforeChange={(current, next) => setImageIndex(next)}
