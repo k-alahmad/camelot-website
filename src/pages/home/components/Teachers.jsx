@@ -34,6 +34,7 @@ const Teachers = () => {
           slidesToShow={5}
           slidesToScroll={1}
           speed={500}
+          lazyLoad="ondemand"
           touchMove={true}
           nextArrow={<SampleNextArrow />}
           prevArrow={<SamplePrevArrow />}
@@ -117,14 +118,13 @@ const Teachers = () => {
                 <div className="rounded-xl overflow-hidden border-secondary border-2 w-full flex flex-col justify-center items-center max-w-[200px]">
                   <img
                     src={
-                      male
-                      // item.gender == "male"
-                      //   ? item.image !== ""
-                      //     ? item.image
-                      //     : male
-                      //   : item.image !== ""
-                      //   ? item.image
-                      //   : female
+                      item.gender == "male"
+                        ? item.image !== ""
+                          ? item.image
+                          : male
+                        : item.image !== ""
+                        ? item.image
+                        : female
                     }
                     alt={item.nameEN}
                     className={`h-[150px] w-full object-cover object-top`}
