@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div
       id="Header"
-      className="w-full h-screen pt-6 md:pt-10 bg-primary grid md:grid-cols-2 gap-10 place-items-center px-5 lg:px-[5%] relative overflow-hidden"
+      className="w-full h-screen min-h-[900px] pt-6 md:pt-10 bg-primary grid md:grid-cols-2 gap-10 place-items-center px-5 lg:px-[5%] relative overflow-hidden"
     >
       <svg
         width="607"
