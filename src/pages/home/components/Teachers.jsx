@@ -143,52 +143,52 @@ const Teachers = () => {
                     </p>
                     <p
                       className="underline text-primary cursor-pointer"
-                      // onClick={() => {
-                      //   dispatch(
-                      //     showFilterModal({
-                      //       data: (
-                      //         <div
-                      //           dir={i18n.language == "ar" ? "rtl" : "ltr"}
-                      //           className="space-y-5 p-[5%]"
-                      //         >
-                      //           <div className="flex max-sm:flex-col sm:justify-center sm:items-center gap-x-5">
-                      //             <img
-                      //               src={
-                      //                 item.gender == "male"
-                      //                   ? item.image !== ""
-                      //                     ? item.image
-                      //                     : male
-                      //                   : item.image !== ""
-                      //                   ? item.image
-                      //                   : female
-                      //               }
-                      //               alt={item.nameEN}
-                      //               className={`h-[200px] w-[200px] object-contain object-top rounded-full self-center`}
-                      //             />
-                      //             <div className="max-sm:text-center space-y-5">
-                      //               <p className="font-bold text-small md:text-med capitalize text-primary">
-                      //                 {i18n.language == "ar"
-                      //                   ? item.nameAr
-                      //                   : item.nameEN}
-                      //               </p>
-                      //               <p className="font-regular text-smaller md:text-small text-gray-700">
-                      //                 {i18n.language == "ar"
-                      //                   ? item.titleAr
-                      //                   : item.titleEn}
-                      //               </p>
-                      //             </div>
-                      //           </div>
+                      onClick={() => {
+                        dispatch(
+                          showFilterModal({
+                            data: (
+                              <div
+                                dir={i18n.language == "ar" ? "rtl" : "ltr"}
+                                className="space-y-5 p-[5%]"
+                              >
+                                <div className="flex max-sm:flex-col sm:justify-center sm:items-center gap-x-5">
+                                  <img
+                                    src={
+                                      item.gender == "male"
+                                        ? item.image !== ""
+                                          ? item.image
+                                          : male
+                                        : item.image !== ""
+                                        ? item.image
+                                        : female
+                                    }
+                                    alt={item.nameEN}
+                                    className={`h-[200px] w-[200px] object-contain object-top rounded-full self-center`}
+                                  />
+                                  <div className="max-sm:text-center space-y-5">
+                                    <p className="font-bold text-small md:text-med capitalize text-primary">
+                                      {i18n.language == "ar"
+                                        ? item.nameAr
+                                        : item.nameEN}
+                                    </p>
+                                    <p className="font-regular text-smaller md:text-small text-gray-700">
+                                      {i18n.language == "ar"
+                                        ? item.titleAr
+                                        : item.titleEn}
+                                    </p>
+                                  </div>
+                                </div>
 
-                      //           <p className="font-regular text-tiny md:text-smaller text-black">
-                      //             {i18n.language == "ar"
-                      //               ? item.descAr
-                      //               : item.descEn}
-                      //           </p>
-                      //         </div>
-                      //       ),
-                      //     })
-                      //   );
-                      // }}
+                                <p className="font-regular text-tiny md:text-smaller text-black">
+                                  {i18n.language == "ar"
+                                    ? item.descAr
+                                    : item.descEn}
+                                </p>
+                              </div>
+                            ),
+                          })
+                        );
+                      }}
                     >
                       {i18n.language == "ar" ? "اعرض المزيد" : "View More"}
                     </p>
