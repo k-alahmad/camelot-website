@@ -6,8 +6,7 @@ import {
   SampleNextArrow,
   SamplePrevArrow,
 } from "../../../components/UI/SliderArrows";
-import male from "../../../assets/images/male.webp";
-import female from "../../../assets/images/female.webp";
+
 import { useDispatch } from "react-redux";
 import { showFilterModal } from "../../../redux/modal.slice";
 const Teachers = () => {
@@ -117,15 +116,7 @@ const Teachers = () => {
               >
                 <div className="rounded-xl overflow-hidden border-secondary border-2 w-full flex flex-col justify-center items-center max-w-[200px]">
                   <img
-                    src={
-                      item.gender == "male"
-                        ? item.image !== ""
-                          ? item.image
-                          : male
-                        : item.image !== ""
-                        ? item.image
-                        : female
-                    }
+                    src={item.image}
                     alt={item.nameEN}
                     className={`h-[150px] w-full object-cover object-top`}
                   />
