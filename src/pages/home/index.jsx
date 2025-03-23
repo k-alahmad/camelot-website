@@ -8,7 +8,6 @@ import HowToSpeak from "./components/HowToSpeak";
 import Teachers from "./components/Teachers";
 import SignUp from "./components/SignUp";
 import FAQ from "./components/FAQ";
-import Loader from "../../components/UI/Loader";
 
 const HomePage = () => {
   return (

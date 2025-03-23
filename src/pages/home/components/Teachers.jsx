@@ -107,7 +107,7 @@ const Teachers = () => {
               <div
                 dir={i18n.language == "ar" ? "rtl" : "ltr"}
                 key={index}
-                className={`w-[260px] sm:w-[300px] !flex !justify-center !items-center transition-all duration-500 py-28  ${
+                className={`w-[260px] sm:w-[300px] !flex !justify-center !items-center md:transition-all md:duration-500 py-28  ${
                   index == imageIndex
                     ? "md:scale-[1.3] 2xl:scale-[1.5] opacity-100 relative z-10"
                     : "scale-[0.7] md:scale-[1] 2xl:scale-[1.2] opacity-[1]"
@@ -128,7 +128,7 @@ const Teachers = () => {
                     className={`h-[150px] w-full object-cover object-top`}
                   />
                   <div
-                    className={`w-full bg-secondary p-5 space-y-3 transition-all duration-300  ${
+                    className={`w-full bg-secondary p-5 space-y-3 md:transition-all md:duration-300  ${
                       index == imageIndex
                         ? "h-[140px] md:h-[150px]"
                         : "h-[50px] md:h-[60px]"
