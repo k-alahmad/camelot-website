@@ -47,19 +47,30 @@ const NavBar = () => {
             className="flex justify-center items-center gap-x-8 2xl:gap-x-12"
             dir={i18n.language == "en" ? "ltr" : "rtl"}
           >
-            {NavElement.map((e, index) => {
-              return (
-                <p
-                  key={index}
-                  className="cursor-pointer text-tiny md:text-smaller max-lg:hidden select-none"
-                  onClick={() => {
-                    handleScroll(e.link);
-                  }}
-                >
-                  {t(e.name)}
-                </p>
-              );
-            })}
+            {location.pathname !== "/test" ? (
+              NavElement.map((e, index) => {
+                return (
+                  <p
+                    key={index}
+                    className="cursor-pointer text-tiny md:text-smaller max-lg:hidden select-none"
+                    onClick={() => {
+                      handleScroll(e.link);
+                    }}
+                  >
+                    {t(e.name)}
+                  </p>
+                );
+              })
+            ) : (
+              <p
+                className="cursor-pointer text-tiny md:text-smaller max-lg:hidden select-none"
+                onClick={() => {
+                  navigate("/");
+                }}
+              >
+                {t("home")}
+              </p>
+            )}
             <Dropdown />
             <div
               onClick={() => setMobileOpen(true)}
