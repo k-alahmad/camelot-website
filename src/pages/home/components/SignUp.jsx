@@ -73,13 +73,13 @@ const SignUp = () => {
   return (
     <div
       dir={i18n.language == "ar" ? "rtl" : "ltr"}
-      className="mt-6 md:mt-12 grid md:grid-cols-2 text-white min-h-[500px]"
+      className="mt-6 md:mt-12 grid md:grid-cols-2 text-white min-h-[500px] bg-fourth"
     >
-      <div className="p-[5%] w-full h-full flex flex-col justify-between items-start space-y-6 bg-fourth relative">
+      <div className="p-[5%] w-full h-full flex flex-col justify-between items-start space-y-6 relative">
         <img
           src={sowrd}
           alt="sowrd logo"
-          className="absolute bottom-0 right-0 w-[200px] h-auto"
+          className="absolute bottom-0 right-0 w-[200px] h-auto max-md:hidden"
         />
         <p className="text-med lg:text-big font-bold">
           {i18n.language == "ar"
@@ -92,7 +92,7 @@ const SignUp = () => {
             : "Fill out the form and we will select a convenient time for you"}
         </p>
       </div>
-      <div className="flex flex-col justify-center items-center p-[5%] space-y-6">
+      <div className="flex flex-col justify-center items-center p-[5%] space-y-6 bg-white m-[5%] rounded-lg shadow-lg">
         <CustomInput
           placeholder={t("fullName")}
           type={"text"}
