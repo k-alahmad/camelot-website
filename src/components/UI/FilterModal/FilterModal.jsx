@@ -30,7 +30,7 @@ export default function FilterModal() {
       <div
         className={`${
           open ? "scale-100 opacity-100" : "scale-0 opacity-0"
-        } transition-all duration-300 justify-center items-center flex fixed inset-0 z-40 outline-none focus:outline-none w-full`}
+        } transition-all duration-500 justify-center items-center flex fixed inset-0 z-40 outline-none focus:outline-none w-full`}
       >
         {/* <div
           ref={ref}

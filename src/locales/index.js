@@ -101,6 +101,7 @@ i18n.use(initReactI18next).init({
         Newbie: "مبتدئ؟",
         Teachers: "المدرسين",
         FAQs: "الأسئلة الشائعة",
+        signup: "اشتراك",
       },
     },
     en: {
@@ -198,6 +199,7 @@ i18n.use(initReactI18next).init({
         Newbie: "Newbie?",
         Teachers: "Teachers",
         FAQs: "FAQs",
+        signup: "Sign Up",
       },
     },
   },

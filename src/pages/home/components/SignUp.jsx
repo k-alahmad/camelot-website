@@ -7,7 +7,7 @@ import useForm from "../../../hooks/useForm";
 import { useDispatch } from "react-redux";
 import { MdExpandMore } from "react-icons/md";
 import emailjs from "@emailjs/browser";
-
+import sowrd from "../../../assets/images/Sowrd.svg";
 const defaultFormState = {
   email: "",
   fullName: "",
@@ -73,21 +73,26 @@ const SignUp = () => {
   return (
     <div
       dir={i18n.language == "ar" ? "rtl" : "ltr"}
-      className="mt-6 md:mt-12 bg-fourth grid md:grid-cols-2 text-white min-h-[400px]"
+      className="mt-6 md:mt-12 grid md:grid-cols-2 text-white min-h-[500px]"
     >
-      <div className="p-[5%] w-full h-full flex flex-col justify-evenly items-start space-y-6">
+      <div className="p-[5%] w-full h-full flex flex-col justify-between items-start space-y-6 bg-fourth relative">
+        <img
+          src={sowrd}
+          alt="sowrd logo"
+          className="absolute bottom-0 right-0 w-[200px] h-auto"
+        />
         <p className="text-med lg:text-big font-bold">
           {i18n.language == "ar"
             ? "سجل للحصول على درس تجريبي مجاني واحصل على خصم 10٪ على الرسوم الدراسية"
             : "Sign up for a free trial lesson and get a 10% discount on tuition"}
         </p>
-        <p className="text-smaller lg:text-med font-medium">
+        <p className="text-smaller lg:text-med font-regular">
           {i18n.language == "ar"
             ? "إملأ النموذج وسوف نختار الوقت المناسب لك"
             : "Fill out the form and we will select a convenient time for you"}
         </p>
       </div>
-      <div className="flex flex-col justify-center items-center p-[5%] space-y-3">
+      <div className="flex flex-col justify-center items-center p-[5%] space-y-6">
         <CustomInput
           placeholder={t("fullName")}
           type={"text"}
@@ -113,11 +118,11 @@ const SignUp = () => {
           error={errors?.phoneNumber}
         />
         <button
-          className="rounded-lg bg-secondary text-primary w-full p-2 flex justify-center items-center gap-x-2 font-medium text-tiny md:text-smaller place-self-center"
+          className="rounded-lg bg-fourth text-white font-bold w-full p-2 flex justify-center items-center gap-x-2 text-tiny md:text-smaller place-self-center"
           disabled={disabled}
           onClick={handleSubmit}
         >
-          {isLoading ? t("sending") : t("send")}
+          {isLoading ? t("sending") : t("signup")}
           {!isLoading && (
             <MdSend
               className={`${

@@ -57,9 +57,9 @@ const CustomInput = ({
           `${
             error
               ? "border-red-500 border-[2px]"
-              : "border-transparent border-[2px]"
+              : "border-l-fourth border-[3px]"
           } bg-white w-full h-full`
-        }  px-4 py-3 flex w-full items-center relative rounded-lg ${containerStyle} ${
+        }  px-4 py-3 flex w-full items-center relative rounded-lg shadow-md ${containerStyle} ${
           reverseIcon && "flex-row-reverse"
         } ${select && "cursor-pointer"}`}
         onClick={() => {

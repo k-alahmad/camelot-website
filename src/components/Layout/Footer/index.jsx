@@ -15,9 +15,9 @@ const Footer = () => {
           <img
             src={homeData.Footer.left.logo}
             alt="LOGO"
-            className="w-[250px] sm:w-[300px] h-auto -mt-16"
+            className="w-[250px] sm:w-[300px] h-auto -mt-8 md:-mt-16"
           />
-          <div className="flex justify-center items-center gap-x-6 -mt-12">
+          <div className="flex justify-center items-center gap-x-6 -mt-6 md:-mt-12">
             <FaFacebook className="text-small md:text-med cursor-pointer" />
             <FaInstagram className="text-small md:text-med cursor-pointer" />
             <FaTwitter className="text-small md:text-med cursor-pointer" />
@@ -36,11 +36,11 @@ const Footer = () => {
           </p>
 
           <div className="flex justify-center items-center gap-x-2 text-tiny">
-            <p>INN {homeData.Footer.left.companyInfo.inn} </p>
-            <p>ORGN {homeData.Footer.left.companyInfo.ogrn} </p>
+            <p> {homeData.Footer.left.companyInfo.inn} </p>
+            <p> {homeData.Footer.left.companyInfo.ogrn} </p>
           </div>
         </div>
-        <div className="h-full flex flex-col justify-start items-start space-y-6">
+        <div className="h-full flex flex-col justify-start items-center md:items-start space-y-6">
           <p className="text-smaller md:text-small font-bold">
             {i18n.language == "ar" ? "القائمة" : "Menu"}
           </p>
@@ -48,7 +48,7 @@ const Footer = () => {
             return (
               <p
                 key={index}
-                className="cursor-pointer text-tiny md:text-smaller"
+                className="cursor-pointer text-tiny md:text-smaller select-none"
                 onClick={() => {
                   handleScroll(item.link);
                 }}
@@ -58,7 +58,7 @@ const Footer = () => {
             );
           })}
         </div>
-        <div className="h-full flex flex-col justify-start items-start space-y-6">
+        <div className="h-full flex flex-col justify-start items-center md:items-start space-y-6">
           <p className="text-smaller md:text-small font-bold">
             {i18n.language == "ar" ? "تواصل معنا" : "Contact Us"}
           </p>

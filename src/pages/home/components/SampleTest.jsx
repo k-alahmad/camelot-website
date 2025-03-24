@@ -1,8 +1,10 @@
 import React from "react";
 import { homeData } from "../../../data/homeData";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 const SampleTest = () => {
   const { i18n } = useTranslation();
+  const navigate = useNavigate();
   return (
     <div
       dir={i18n.language == "ar" ? "rtl" : "ltr"}
@@ -24,7 +26,12 @@ const SampleTest = () => {
           alt={homeData.TestSection.mainImageAlt}
           className="object-contain h-[300px] w-full md:hidden"
         />
-        <button className="w-full max-w-[400px] text-center p-2 bg-fifth text-primary rounded-lg text-tiny lg:text-smaller font-bold">
+        <button
+          onClick={() => {
+            navigate("/test");
+          }}
+          className="w-full max-w-[400px] text-center p-2 bg-fifth text-primary rounded-lg text-tiny lg:text-smaller font-bold"
+        >
           {i18n.language == "ar"
             ? homeData.TestSection.buttonNameAr
             : homeData.TestSection.buttonNameEn}

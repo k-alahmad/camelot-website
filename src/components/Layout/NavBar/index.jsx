@@ -51,7 +51,7 @@ const NavBar = () => {
               return (
                 <p
                   key={index}
-                  className="cursor-pointer text-tiny md:text-smaller max-lg:hidden"
+                  className="cursor-pointer text-tiny md:text-smaller max-lg:hidden select-none"
                   onClick={() => {
                     handleScroll(e.link);
                   }}
@@ -75,7 +75,7 @@ const NavBar = () => {
         {NavElement.map((e, index) => (
           <p
             key={index}
-            className="cursor-pointer text-smaller text-white"
+            className="cursor-pointer text-smaller text-white select-none"
             onClick={() => {
               handleScroll(e.link);
             }}

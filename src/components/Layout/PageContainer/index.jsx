@@ -22,8 +22,14 @@ const PageLayout = ({ children }) => {
       <Footer />
 
       <div
-        className="fixed bottom-5 right-5 bg-green-600 rounded-full p-2 z-50 cursor-pointer"
-        onClick={() => {}}
+        className="fixed bottom-5 right-5 bg-green-600 rounded-full p-3 z-50 cursor-pointer"
+        onClick={() => {
+          window.open(
+            "https://wa.me/971503192940",
+            "_blank",
+            "noopener,noreferrer"
+          );
+        }}
       >
         <FaWhatsapp className="text-med md:text-big text-white" />
       </div>
