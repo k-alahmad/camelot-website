@@ -82,26 +82,26 @@ export const homeData = {
   Footer: {
     left: {
       logo: logo,
-      copyrightEn: "Copyright 2020 by Camelot English School.",
-      copyrightAr: "جميع الحقوق محفوظة لمدرسة كاميلوت لتعليم اللغة الانكليزية.",
+      copyrightEn: "Copyright 2025 by Camelot Language LLC.",
+      copyrightAr: " جميع الحقوق محفوظة لـ كاميلوت لانجويج ذ م م 2025.",
       companyInfo: {
-        llcEn: 'LLC "Camelot English School"',
-        llcAr: 'LLC "Camelot English School"',
-        inn: "INN 7841089419",
-        ogrn: "OGRN 1207800078188",
+        llcEn: 'Camelot Language LLC"',
+        llcAr: "كاميلوت لانجويج ذ م م",
+        // inn: "INN 7841089419",
+        // ogrn: "OGRN 1207800078188",
       },
     },
     right: {
       contactUs: {
-        phone: "+1 (123) 456-7890",
+        phone: "+971545851248",
         email: "info@camelotenglish.com",
-        addressEn: "123 Main Street, City, Country",
-        addressAr: "123 Main Street, City, Country",
+        addressEn: "Dubai, JVC, Binghatti Emerald, office 303",
+        addressAr: "دبي, قرية جميرا الدائرية, بناء بن غاطي اميرالد, مكتب 303",
       },
-      educationalServicesDisclaimerEn:
-        'Educational services are provided in accordance with Federal Law No. 99-FZ of 04.05.2011 "On Licensing of Certain Types of Activities".',
-      educationalServicesDisclaimerAr:
-        'Educational services are provided in accordance with Federal Law No. 99-FZ of 04.05.2011 "On Licensing of Certain Types of Activities".',
+      // educationalServicesDisclaimerEn:
+      //   'Educational services are provided in accordance with Federal Law No. 99-FZ of 04.05.2011 "On Licensing of Certain Types of Activities".',
+      // educationalServicesDisclaimerAr:
+      //   'Educational services are provided in accordance with Federal Law No. 99-FZ of 04.05.2011 "On Licensing of Certain Types of Activities".',
     },
   },
 };
