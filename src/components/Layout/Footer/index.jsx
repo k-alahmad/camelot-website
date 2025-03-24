@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaPhone } from "react-icons/fa";
+import { FaInstagram, FaPhone, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 
 import { homeData } from "../../../data/homeData";
@@ -18,9 +18,36 @@ const Footer = () => {
             className="w-[250px] sm:w-[300px] h-auto -mt-8 md:-mt-16"
           />
           <div className="flex justify-center items-center gap-x-6 -mt-6 md:-mt-12">
-            <FaFacebook className="text-small md:text-med cursor-pointer" />
-            <FaInstagram className="text-small md:text-med cursor-pointer" />
-            <FaTwitter className="text-small md:text-med cursor-pointer" />
+            <FaLinkedin
+              className="text-small md:text-med cursor-pointer"
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/company/101900987/admin/dashboard/",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            />
+            <FaInstagram
+              className="text-small md:text-med cursor-pointer"
+              onClick={() => {
+                window.open(
+                  "https://www.instagram.com/lance_pro_english?igsh=MWhudWVtNmI3bnZnag%3D%3D&utm_source=qr",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            />
+            <FaYoutube
+              className="text-small md:text-med cursor-pointer"
+              onClick={() => {
+                window.open(
+                  "https://youtube.com/@camelotenglishlanguageschool?si=Bf7yYUdmXmmwl7P0",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            />
           </div>
 
           <p className="text-tiny md:text-smaller mt-6">
@@ -35,10 +62,10 @@ const Footer = () => {
               : homeData.Footer.left.companyInfo.llcEn}
           </p>
 
-          <div className="flex justify-center items-center gap-x-2 text-tiny">
+          {/* <div className="flex justify-center items-center gap-x-2 text-tiny">
             <p> {homeData.Footer.left.companyInfo.inn} </p>
             <p> {homeData.Footer.left.companyInfo.ogrn} </p>
-          </div>
+          </div> */}
         </div>
         <div className="h-full flex flex-col justify-start items-center md:items-start space-y-6">
           <p className="text-smaller md:text-small font-bold">
@@ -62,19 +89,42 @@ const Footer = () => {
           <p className="text-smaller md:text-small font-bold">
             {i18n.language == "ar" ? "تواصل معنا" : "Contact Us"}
           </p>
-          <div className="flex items-center gap-x-2 cursor-pointer">
+          <div
+            className="flex items-center gap-x-2 cursor-pointer"
+            onClick={() => {
+              window.open("tel:+971545851248", "_blank", "noopener,noreferrer");
+            }}
+          >
             <FaPhone className="text-smaller md:text-small rotate-90" />
             <p className="text-tiny md:text-smaller">
               {homeData.Footer.right.contactUs.phone}
             </p>
           </div>
-          <div className="flex items-center gap-x-2 cursor-pointer">
+          <div
+            className="flex items-center gap-x-2 cursor-pointer"
+            onClick={() => {
+              window.open(
+                "mailto: info@camelotenglish.com",
+                "_blank",
+                "noopener,noreferrer"
+              );
+            }}
+          >
             <MdEmail className="text-smaller md:text-small" />
             <p className="text-tiny md:text-smaller">
               {homeData.Footer.right.contactUs.email}
             </p>
           </div>
-          <div className="flex items-center gap-x-2 cursor-pointer">
+          <div
+            className="flex items-center gap-x-2 cursor-pointer"
+            onClick={() => {
+              window.open(
+                "https://maps.app.goo.gl/AuQzJBsLUucTJ3fK8",
+                "_blank",
+                "noopener,noreferrer"
+              );
+            }}
+          >
             <MdLocationOn className="text-smaller md:text-small" />
             <p className="text-tiny md:text-smaller">
               {i18n.language == "ar"
