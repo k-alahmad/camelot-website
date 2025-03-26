@@ -4,7 +4,7 @@ import Personal from "../assets/icons/Personal.svg";
 import hobby from "../assets/icons/hobby.svg";
 export const secondData = {
   titleEn: "What will you get?",
-  titleAr: "ماذا ستحصل؟",
+  titleAr: "على ماذا ستحصل معنا؟",
   image: image,
   steps: [
     {
@@ -15,7 +15,7 @@ export const secondData = {
         "We tailor our approach to your unique learning style, selecting the best method for you. Whether you thrive in groups or one-on-one, prefer online or in-person classes, we adapt to create the ideal learning environment for your success.",
 
       descriptionAr:
-        "نُصمّم نهجنا بما يتناسب مع أسلوبك التعليمي الفريد، ونختار لك الطريقة الأنسب. سواءً كنتَ تُبدع في مجموعات أو بشكل فردي، أو تُفضّل الدروس عبر الإنترنت أو الحضور الشخصي، فإننا نُكيّف أنفسنا لنُهيئ لك بيئة تعليمية مثالية لنجاحك.",
+        "نصمم تجربتك التعليمية خصيصًا لتناسب أسلوبك الفريد، ونقدم لك الطريقة المثالية لتحقيق أهدافك. سواء كنت تتألق في مجموعات، أو تفضل التعلم الفردي، أو تختار الدراسة عبر الإنترنت أو الحضور الشخصي، نحن نضمن لك بيئة تعليمية مثالية تضمن نجاحك.",
     },
     {
       icons: Personal,

@@ -8,7 +8,7 @@ export const faqData = {
       answerEN:
         "Of course, we will prepare for any international or entrance exam. CAMELOT school teachers monitor changes in exams and adapt programs to them.",
       answerAR:
-        "بالطبع، سنقوم بالتحضير لأي اختبار دولي أو اختبار دخول. يراقب معلمو مدرسة كاميلوت التغييرات في الاختبارات ويقومون بتكييف البرامج وفقًا لها.",
+        "بالطبع، في كاميلوت، نضمن لك التحضير الأمثل ليس فقط للتوفل، بل لأي اختبار دولي أو اختبار دخول. معلمونا يواكبون أحدث التغييرات في الاختبارات، ويعدّلون برامجنا التعليمية باستمرار لضمان نجاحك..",
     },
     {
       questionEN: "Do you have children's groups?",
@@ -26,7 +26,7 @@ export const faqData = {
       answerEN:
         "Want to master the English language? We’ll create a personalised programme to help you expand your vocabulary and improve your speaking skills—smoothly, naturally, and without stress.",
       answerAR:
-        "هل ترغب بإتقان اللغة الإنجليزية؟ سنصمم لك برنامجًا شخصيًا لمساعدتك على توسيع مفرداتك وتحسين مهاراتك في التحدث بسلاسة وطبيعية ودون ضغوط.",
+        "لا هدف محدد لديك؟ لا مشكلة! في كاميلوت، نساعدك على تطوير مهاراتك اللغوية بكل سلاسة. سنصمم لك برنامجًا شخصيًا يركز على توسيع مفرداتك وتحسين قدرتك على التحدث بطلاقة وثقة، دون أي ضغوط.",
     },
     {
       questionEN: "Do you teach companies?",

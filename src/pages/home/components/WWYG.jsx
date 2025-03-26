@@ -30,7 +30,7 @@ const WWYG = () => {
                     <p className="text-smaller md:text-small font-bold ">
                       {i18n.language == "ar" ? item.titleAr : item.titleEn}
                     </p>
-                    <p className="text-tiny md:text-smaller font-light">
+                    <p className="text-tiny md:text-small font-light">
                       {i18n.language == "ar"
                         ? item.descriptionAr
                         : item.descriptionEn}
