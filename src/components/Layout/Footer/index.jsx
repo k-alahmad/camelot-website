@@ -104,7 +104,7 @@ const Footer = () => {
             className="flex items-center gap-x-2 cursor-pointer"
             onClick={() => {
               window.open(
-                "mailto: info@camelotenglish.com",
+                "mailto: info@camelot-eng.com",
                 "_blank",
                 "noopener,noreferrer"
               );

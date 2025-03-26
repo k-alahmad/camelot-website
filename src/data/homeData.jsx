@@ -18,7 +18,7 @@ export const homeData = {
     subTitleEn: "Your fast way to results",
     subTitleAr: "طريقك السريع نحو النتائج",
     subTitleTwoEn:
-      "Sign up for a trial lesson and get a personalized training plan for free",
+      "Sign up for a trial lesson and get a Personalised training plan for free",
     subTitleTwoAr: "سجل للحصول على درس تجريبي واحصل على خطة تدريب شخصية مجانًا",
 
     buttonNameEn: "Sign Up",
@@ -94,7 +94,7 @@ export const homeData = {
     right: {
       contactUs: {
         phone: "+971545851248",
-        email: "info@camelotenglish.com",
+        email: "info@camelot-eng.com",
         addressEn: "Dubai, JVC, Binghatti Emerald, office 303",
         addressAr: "دبي, قرية جميرا الدائرية, بناء بن غاطي اميرالد, مكتب 303",
       },
