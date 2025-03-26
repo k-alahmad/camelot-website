@@ -63,7 +63,7 @@ const Reviews = () => {
                   <img
                     src={item.image}
                     alt={item.nameEn}
-                    className="h-[80px] w-[80px] object-cover object-top rounded-full"
+                    className="h-[80px] w-[80px] object-cover object-top rounded-full border-2 border-primary"
                   />
                   <div className="space-y-1">
                     <p className="text-smaller md:text-small font-bold">
@@ -83,7 +83,7 @@ const Reviews = () => {
                   {i18n.language == "ar" ? item.messageAr : item.messageEn}
                 </p>
                 <p
-                  className="underline text-third cursor-pointer"
+                  className="underline text-primary cursor-pointer text-tiny md:text-smaller"
                   onClick={() => {
                     dispatch(
                       showFilterModal({
