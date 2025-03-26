@@ -51,10 +51,10 @@ const SignUp = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_5wdnu6j",
-        "template_slqqcpm",
+        "service_voa1non",
+        "template_ldfp86q",
         values.current,
-        "sxh5TJan60LQqD6Sw"
+        "tdJc4vKW38XtiE8B-"
       )
       .then(
         (result) => {
