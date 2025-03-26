@@ -90,7 +90,7 @@ const Reviews = () => {
                         data: (
                           <div
                             dir={i18n.language == "ar" ? "rtl" : "ltr"}
-                            className="space-y-5 p-[5%]"
+                            className="space-y-5 p-[5%] bg-fifth"
                           >
                             <div className="flex max-sm:flex-col sm:justify-start sm:items-center gap-x-5">
                               <img
