@@ -2,10 +2,53 @@ import React, { useEffect, useRef, useState } from "react";
 import { testData } from "../../data/testData";
 import { FaCheck, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import Slider from "react-slick";
+import useForm from "../../hooks/useForm";
+import { useTranslation } from "react-i18next";
+import CustomInput from "../../components/Forms/CustomInput";
+import { MdSend } from "react-icons/md";
+const defaultFormState = {
+  email: "",
+  fullName: "",
+  phoneNumber: "",
+};
 const SampleTestPage = () => {
   const [userData, setUserData] = useState([]);
+  const [userInfo, setUserInfo] = useState([]);
   const slideRef = useRef();
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+  const { t, i18n } = useTranslation();
+  const {
+    disabled,
+    errors,
+    setErrors,
+    setValues,
+    handleSubmit,
+    handleChange,
+    values,
+  } = useForm(submit, defaultFormState);
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_5wdnu6j",
+        "template_slqqcpm",
+        values.current,
+        "sxh5TJan60LQqD6Sw"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  function submit(e) {
+    // sendEmail(e);
+    setValues(defaultFormState);
+  }
   useEffect(() => {
     console.log(userData);
   }, [userData.length]);
@@ -25,6 +68,7 @@ const SampleTestPage = () => {
         arrows={false}
         infinite={false}
         beforeChange={(prev, next) => setCurrentSlide(next)}
+        adaptiveHeight
       >
         {testData.map((item, index) => {
           return (
@@ -92,6 +136,56 @@ const SampleTestPage = () => {
             </div>
           );
         })}
+        <div
+          key={testData.length + 1}
+          className="!flex !justify-center !items-center"
+        >
+          <div className="flex flex-col justify-center items-center p-[5%] space-y-6 bg-white w-[95%] max-w-[700px]">
+            <CustomInput
+              placeholder={t("fullName")}
+              type={"text"}
+              name={"fullName"}
+              onChange={handleChange}
+              value={values.fullName}
+              error={errors?.fullName}
+            />
+            <CustomInput
+              placeholder={t("email")}
+              type={"email"}
+              name={"email"}
+              onChange={handleChange}
+              value={values.email}
+              error={errors?.email}
+            />
+            <CustomInput
+              placeholder={t("phoneNumber")}
+              type={"text"}
+              name={"phoneNumber"}
+              onChange={handleChange}
+              value={values.phoneNumber}
+              error={errors?.phoneNumber}
+            />
+            <button
+              className="rounded-lg bg-fourth text-white font-bold w-full p-2 flex justify-center items-center gap-x-2 text-tiny md:text-smaller place-self-center"
+              disabled={disabled}
+              onClick={handleSubmit}
+            >
+              {isLoading ? t("sending") : t("signup")}
+              {!isLoading && (
+                <MdSend
+                  className={`${
+                    i18n.language == "en"
+                      ? "group-hover:translate-x-[50%]"
+                      : "group-hover:-translate-x-[50%]"
+                  } transition-all duration-500 ${
+                    i18n.language == "ar" && "rotate-180"
+                  } `}
+                  size={20}
+                />
+              )}
+            </button>
+          </div>
+        </div>
       </Slider>
       <div className="max-md:w-full flex justify-center items-center bg-white -translate-y-12 px-5">
         <div
@@ -107,7 +201,7 @@ const SampleTestPage = () => {
           Back
         </div>
         <div className="border-t-2 border-b-2 border-primary w-[60px] h-14 flex justify-center items-center text-center font-bold text-primary">
-          {currentSlide + 1 + "/10"}
+          {currentSlide + 1 + "/" + (testData.length + 1)}
         </div>
         <div
           className={`h-14 w-[100px] ${
