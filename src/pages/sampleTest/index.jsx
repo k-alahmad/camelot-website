@@ -2,10 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { testData } from "../../data/testData";
 import { FaCheck, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import Slider from "react-slick";
-import {
-  SampleNextArrow,
-  SamplePrevArrow,
-} from "../../components/UI/SliderArrows";
 const SampleTestPage = () => {
   const [userData, setUserData] = useState([]);
   const slideRef = useRef();
@@ -26,8 +22,6 @@ const SampleTestPage = () => {
         speed={500}
         touchMove={false}
         className="h-auto w-full"
-        // nextArrow={<SampleNextArrow />}
-        // prevArrow={<SamplePrevArrow />}
         arrows={false}
         infinite={false}
         beforeChange={(prev, next) => setCurrentSlide(next)}

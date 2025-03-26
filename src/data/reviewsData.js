@@ -1,66 +1,73 @@
-const camelotReviewsData = {
+import male from "../assets/images/male.webp";
+import female from "../assets/images/female.webp";
+export const reviewsData = {
   titleEn: "Check What our students reviews",
   titleAr: "تحقق من آراء طلابنا",
   data: [
-    //TODO Update with real data because review data are mock data not the real one
     {
-      name: "Sarah Miller",
-      icon: "sarah_miller.jpg",
-      reviewTextEN:
-        "Camelot English Language School exceeded my expectations! The teachers are incredibly supportive, and the curriculum is engaging. I've seen a significant improvement in my English skills.",
-      reviewTextAR:
-        "تجاوزت مدرسة كاميلوت لتعليم اللغة الإنجليزية توقعاتي! المعلمون داعمون بشكل لا يصدق، والمنهج جذاب. لقد رأيت تحسنًا كبيرًا في مهاراتي في اللغة الإنجليزية.",
-      stars: 5,
+      image: female,
+      nameEn: "Anna",
+      nameAr: "آنا",
+      titleEn: "Estate Agent",
+      titleAr: "وكيل عقارات",
+      noteEn: "",
+      noteAr: "",
+      messageEn:
+        "Hello, I have just finished the class!! I want to say thank you for providing great lessons with native speakers!! It’s a complete immersion into the language and not a single word in Russian. It really helps you to be more confident in the language. The class went very well, the teacher explained a few unknown words, in English of course, it was very comfortable and there was no tension in communication! Just great",
+      messageAr:
+        "مرحباً، لقد انتهيتُ للتو من الدرس! أودُّ أن أشكركم على تقديم دروس رائعة مع متحدثين أصليين للغة! إنه انغماسٌ كاملٌ في اللغة، ولا كلمة واحدة باللغة الروسية. هذا يُساعدك حقاً على اكتساب ثقة أكبر باللغة. كان الدرس رائعاً، شرح المعلم بعض الكلمات غير المألوفة، باللغة الإنجليزية بالطبع، وكان مريحاً للغاية، ولم يكن هناك أي توتر في التواصل! رائعٌ حقاً.",
     },
     {
-      name: "Omar Al-Mansouri",
-      icon: "omar_almansouri.jpg",
-      reviewTextEN:
-        "I enjoyed my time at Camelot. The staff is friendly, and the classes are well-structured. I would recommend this school to anyone looking to improve their English.",
-      reviewTextAR:
-        "استمتعت بوقتي في كاميلوت. الموظفون ودودون، والفصول منظمة بشكل جيد. أوصي بهذه المدرسة لأي شخص يتطلع إلى تحسين لغته الإنجليزية.",
-      stars: 4,
+      image: female,
+      nameEn: "Olga",
+      nameAr: "أولغا",
+      titleEn: "",
+      titleAr: "",
+      noteEn: "We prepared her son for University in Dubai",
+      noteAr: "لقد قمنا بتجهيز ابنها للجامعة في دبي",
+      messageEn:
+        "Hello! I want to thank Maria, Jacob and our teachers for their high level of professionalism. My son had been doing a lot of study with other teachers but still didn’t have a good base of the language, he could not even make a good sentence in English etc. But recently we went on holiday and I saw the result of studying in Eg study. He was talking to foreigners in English! He was so happy)) And he passed the test with 100 scores",
+      messageAr:
+        "مرحباً! أود أن أشكر ماريا وجاكوب ومعلمينا على احترافيتهم العالية. كان ابني يدرس كثيراً مع معلمين آخرين، لكنه لم يكن متمكناً من اللغة، حتى أنه لم يكن يجيد تكوين جملة جيدة باللغة الإنجليزية. لكن مؤخراً، قضينا عطلة، ورأيت نتائج الدراسة في إيج ستادي. كان يتحدث مع الأجانب باللغة الإنجليزية! كان سعيداً جداً. وقد اجتاز الاختبار بعلامة ١٠٠.",
     },
     {
-      name: "Emily Chen",
-      icon: "emily_chen.jpg",
-      reviewTextEN:
-        "The conversation classes at Camelot were very helpful. I felt more confident speaking English after just a few weeks.",
-      reviewTextAR:
-        "كانت فصول المحادثة في كاميلوت مفيدة للغاية. شعرت بمزيد من الثقة في التحدث باللغة الإنجليزية بعد بضعة أسابيع فقط.",
-      stars: 5,
+      image: female,
+      nameEn: "Svetlana",
+      nameAr: "سفيتلانا",
+      titleEn: "University Professor",
+      titleAr: "أستاذة جامعي",
+      noteEn: "",
+      noteAr: "",
+      messageEn:
+        "Good afternoon! I’ve transferred the money :) I wanted to say a huge thank you for your remindings of the payment, it is super convenient that I don’t have to think about it myself, but be sure that you will do it. It seems to be a little thing but it really makes my life much easier, thank you!",
+      messageAr:
+        "مساء الخير! لقد حوّلتُ المبلغ :) أودّ أن أشكرك جزيل الشكر على تذكيرك بالدفع، فهو مريحٌ جدًا لدرجة أنني لا أحتاج للتفكير فيه بنفسي، ولكن تأكد أنك ستفعله. قد يبدو الأمر بسيطًا، لكنه في الحقيقة يُسهّل حياتي كثيرًا، شكرًا لك!",
     },
     {
-      name: "Khaled Hassan",
-      icon: "khaled_hassan.jpg",
-      reviewTextEN: "Good school, but the online resources could be better.",
-      reviewTextAR: "مدرسة جيدة، ولكن الموارد عبر الإنترنت يمكن أن تكون أفضل.",
-      stars: 3,
+      image: female,
+      nameEn: "Sasha",
+      nameAr: "ساشا",
+      titleEn: "PHD student",
+      titleAr: "طالب دكتوراه",
+      noteEn: "",
+      noteAr: "",
+      messageEn:
+        "Hello, Evgenia! Well, the first impression is really nice) Saryuna was really well-prepared, friendly and polite) The class went by fast and with no tension. She is so different from my previous teacher) Super subtle",
+      messageAr:
+        "أهلاً يا إيفجينيا! الانطباع الأول كان جميلاً جداً. ساريونا كانت مُستعدة جيداً، ودودة ومهذبة. مرّ الدرس سريعاً وهادئاً. إنها مختلفة تماماً عن مُعلمتي السابقة. مُتقنة للغاية.",
     },
     {
-      name: "Anya Petrova",
-      icon: "anya_petrova.jpg",
-      reviewTextEN: "Camelot helped me pass my IELTS exam! Thank you!",
-      reviewTextAR:
-        "ساعدتني كاميلوت في اجتياز اختبار IELTS الخاص بي! شكرا لكم!",
-      stars: 5,
-    },
-    {
-      name: "Yousef Ibrahim",
-      icon: "yousef_ibrahim.jpg",
-      reviewTextEN:
-        "The teachers are very patient and understanding. I appreciate their dedication.",
-      reviewTextAR: "المعلمون صبورون ومتفهمون للغاية. أنا أقدر تفانيهم.",
-      stars: 4,
-    },
-    {
-      name: "Maria Garcia",
-      icon: "maria_garcia.jpg",
-      reviewTextEN:
-        "I had a great experience learning english at Camelot. The small class sizes were great.",
-      reviewTextAR:
-        "لقد كانت لدي تجربة رائعة في تعلم اللغة الإنجليزية في كاميلوت. كانت أحجام الفصول الصغيرة رائعة.",
-      stars: 5,
+      image: female,
+      nameEn: "Ilnur",
+      nameAr: "إيلنور",
+      titleEn: "Real Estate Trainee",
+      titleAr: "متدرب عقارات",
+      noteEn: "",
+      noteAr: "",
+      messageEn:
+        "I’m raving about Katie! She is probably one of the best teachers and I have studied with lots of them in university and extra classes) I really like her level of participation + we don’t waste any time in the class on what we could do ourselves + Katie makes comments on the differences between words and gives other options of how to say something In general there’s great class timing, it’s interesting and intensive at the same time Moreover, I want to say that the topics are not standard and she uses a lot of customised material with plenty of good vocabulary",
+      messageAr:
+        "أنا معجبة جدًا بكاتي! هي على الأرجح من أفضل المعلمات، وقد درستُ مع الكثيرات منهن في الجامعة وفي الفصول الإضافية. يعجبني مستوى مشاركتها، فنحن لا نضيع وقتنا في الفصل فيما يمكننا فعله بأنفسنا، كما تُعلّق كاتي على الاختلافات بين الكلمات وتُقدّم خيارات أخرى لكيفية التعبير. بشكل عام، توقيت الفصل ممتاز، فهو شيق ومكثّف في آنٍ واحد. علاوة على ذلك، أود أن أقول إن المواضيع ليست قياسية، وتستخدم كاتي الكثير من المواد المُخصّصة مع وفرة من المفردات الجيدة.",
     },
   ],
 };

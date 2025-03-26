@@ -3,5 +3,6 @@ export const NavElement = [
   { name: "SampleTest", link: "sampleTest" },
   { name: "Newbie", link: "newbie" },
   { name: "Teachers", link: "teachers" },
+  { name: "Reviews", link: "reviews" },
   { name: "FAQs", link: "faq" },
 ];

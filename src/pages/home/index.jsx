@@ -8,6 +8,7 @@ import HowToSpeak from "./components/HowToSpeak";
 import Teachers from "./components/Teachers";
 import SignUp from "./components/SignUp";
 import FAQ from "./components/FAQ";
+import Reviews from "./components/Reviews";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,8 @@ const HomePage = () => {
       <Teachers />
       <div id="signup" />
       <SignUp />
+      <div id="reviews" />
+      <Reviews />
       <div id="faq" />
       <FAQ />
     </div>

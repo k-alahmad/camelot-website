@@ -102,6 +102,7 @@ i18n.use(initReactI18next).init({
         Teachers: "المدرسين",
         FAQs: "الأسئلة الشائعة",
         signup: "اشتراك",
+        Reviews: "التقيم",
       },
     },
     en: {
@@ -200,6 +201,7 @@ i18n.use(initReactI18next).init({
         Teachers: "Teachers",
         FAQs: "FAQs",
         signup: "Sign Up",
+        Reviews: "Reviews",
       },
     },
   },
