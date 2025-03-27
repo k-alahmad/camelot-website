@@ -78,9 +78,9 @@ export const reviewsData = {
       noteEn: "",
       noteAr: "",
       messageEn:
-          "Our classes are fun! I think that only professional teachers can make a learning process both exciting and effective at the same time. When I joined Lance’s group, I didn’t have high expectations of my future progress but I ended up passing my IELTS test at C2 level with staggering 9 in reading and listening. Without noticing it, I have honed all the necessary skills enjoying the process (which is quite rare if we talk about exam preparation). Keep up the great work!",
+        "Our classes are fun! I think that only professional teachers can make a learning process both exciting and effective at the same time. When I joined Lance’s group, I didn’t have high expectations of my future progress but I ended up passing my IELTS test at C2 level with staggering 9 in reading and listening. Without noticing it, I have honed all the necessary skills enjoying the process (which is quite rare if we talk about exam preparation). Keep up the great work!",
       messageAr:
-          "فصولنا ممتعة! أعتقد أن المعلمين المحترفين فقط هم من يستطيعون جعل عملية التعلم مثيرة وفعالة في نفس الوقت. عندما انضممت إلى مجموعة لانس، لم تكن لدي توقعات عالية بخصوص تقدمي المستقبلي، ولكن انتهى بي الأمر بتجاوز اختبار الآيلتس بمستوى C2 مع 9 مذهلة في القراءة والاستماع. دون أن ألاحظ ذلك، صقلت جميع المهارات اللازمة مستمتعة بالعملية (وهو أمر نادر جدًا عندما نتحدث عن التحضير للامتحانات). استمروا في العمل الرائع!"
+        "فصولنا ممتعة! أعتقد أن المعلمين المحترفين فقط هم من يستطيعون جعل عملية التعلم مثيرة وفعالة في نفس الوقت. عندما انضممت إلى مجموعة لانس، لم تكن لدي توقعات عالية بخصوص تقدمي المستقبلي، ولكن انتهى بي الأمر بتجاوز اختبار الآيلتس بمستوى C2 مع 9 مذهلة في القراءة والاستماع. دون أن ألاحظ ذلك، صقلت جميع المهارات اللازمة مستمتعة بالعملية (وهو أمر نادر جدًا عندما نتحدث عن التحضير للامتحانات). استمروا في العمل الرائع!",
     },
     {
       image: female,
@@ -91,9 +91,9 @@ export const reviewsData = {
       noteEn: "",
       noteAr: "",
       messageEn:
-          "Lance has organized a great speaking club. His classes are very interesting and positive, it helped me to start speaking. In these classes I not only speak English, but also learn a lot of interesting things about the UK",
+        "Lance has organized a great speaking club. His classes are very interesting and positive, it helped me to start speaking. In these classes I not only speak English, but also learn a lot of interesting things about the UK",
       messageAr:
-          "لقد نظم لانس نادي محادثة رائعًا. دروسه شيقة وإيجابية للغاية، وقد ساعدتني على البدء في التحدث. في هذه الدروس، لا أتحدث الإنجليزية فحسب، بل أتعلم أيضًا الكثير من الأشياء الشيقة عن المملكة المتحدة."
+        "لقد نظم لانس نادي محادثة رائعًا. دروسه شيقة وإيجابية للغاية، وقد ساعدتني على البدء في التحدث. في هذه الدروس، لا أتحدث الإنجليزية فحسب، بل أتعلم أيضًا الكثير من الأشياء الشيقة عن المملكة المتحدة.",
     },
     {
       image: female,
@@ -104,9 +104,22 @@ export const reviewsData = {
       noteEn: "",
       noteAr: "",
       messageEn:
-          "I have been part of this conversation club since day one, and it has been an amazing experience. It has a friendly and dynamic atmosphere that makes practicing English fun and effective. The topics are interesting, the teacher guides the conversations excellently, and it’s a great opportunity to improve fluency while meeting new people.",
+        "I have been part of this conversation club since day one, and it has been an amazing experience. It has a friendly and dynamic atmosphere that makes practicing English fun and effective. The topics are interesting, the teacher guides the conversations excellently, and it’s a great opportunity to improve fluency while meeting new people.",
       messageAr:
-          "لقد كنت جزءًا من نادي المحادثة هذا منذ اليوم الأول، وكانت تجربة مذهلة. يتميز بجو ودي وديناميكي يجعل ممارسة اللغة الإنجليزية ممتعة وفعالة. الموضوعات شيقة، ويوجه المعلم المحادثات بشكل ممتاز، وهي فرصة رائعة لتحسين الطلاقة أثناء التعرف على أشخاص جدد."
-    }
+        "لقد كنت جزءًا من نادي المحادثة هذا منذ اليوم الأول، وكانت تجربة مذهلة. يتميز بجو ودي وديناميكي يجعل ممارسة اللغة الإنجليزية ممتعة وفعالة. الموضوعات شيقة، ويوجه المعلم المحادثات بشكل ممتاز، وهي فرصة رائعة لتحسين الطلاقة أثناء التعرف على أشخاص جدد.",
+    },
+    {
+      image: female,
+      nameEn: "Anna",
+      nameAr: "آنا",
+      titleEn: "English Teacher",
+      titleAr: "مدرسة لغة انكليزية",
+      noteEn: "",
+      noteAr: "",
+      messageEn:
+        "I’ve been learning English with Lance for more than half a year. As a teacher myself I really enjoy the process of education. For me It’s a perfect amalgamation of grammar, topics vocabulary, pronunciation and cultural awareness. So, thank you , Lance, for your professionalism and huge work that lies at heart of every lesson!",
+      messageAr:
+        "لقد تعلمتُ الإنجليزية مع لانس لأكثر من نصف عام. وبصفتي مُعلّمًا، أستمتعُ حقًا بعملية التعليم. بالنسبة لي، إنها مزيجٌ مثاليٌّ من القواعد، ومفردات المواضيع، والنطق، والوعي الثقافي. لذا، شكرًا لك يا لانس، على احترافيتك وجهودك الجبارة التي تُشكّل جوهر كل درس!",
+    },
   ],
 };

@@ -12,6 +12,7 @@ import nastyaT from "../assets/images/teachers/nastya-t.webp";
 import sam from "../assets/images/teachers/sam.webp";
 import saryuna from "../assets/images/teachers/saryuna.webp";
 import tim from "../assets/images/teachers/tim.webp";
+import robert from "../assets/images/teachers/robert.webp";
 
 export const teachersData = {
   titleEn:
@@ -173,7 +174,7 @@ export const teachersData = {
         "Rob is a Cambridge examiner with a focus on pronunciation and real-world language learning. He simplifies complex topics into clear, manageable lessons, making grammar, phonetics, and other skills easy to understand. With his patient, approachable style, Rob helps students build confidence and truly master the language.",
       descAr:
         "روبرت هو ممتحن كامبريدج حالي يتمتع بعين ثاقبة للتفاصيل وتركيز قوي على النطق. يؤمن بأن أفضل طريقة لتعلم اللغة هي من خلال نهج طبيعي وغامر يشجع الطلاب على التفاعل مع اللغة في سياقات العالم الحقيقي. بفضل خبرته الواسعة وتخصصه، يجعل روبرت حتى أكثر الموضوعات تعقيدًا في متناول اليد عن طريق تقسيمها إلى دروس واضحة وقابلة للإدارة. سواء كانت قواعد اللغة أو الصوتيات أو مهارات اللغة الأساسية الأخرى، فإنه يضمن شرح كل مفهوم بطريقة مباشرة وسهلة المنال، مما يجعل التعلم فعالاً وممتعًا. أسلوبه التعليمي الصبور واليقظ يساعد الطلاب على بناء الثقة واستيعاب اللغة حقًا، مما يؤهلهم للنجاح.",
-      image: male,
+      image: robert,
       countryEn: "England",
       countryAr: "إنجلترا",
       gender: "male",
