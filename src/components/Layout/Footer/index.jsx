@@ -119,7 +119,7 @@ const Footer = () => {
             className="flex items-center gap-x-2 cursor-pointer"
             onClick={() => {
               window.open(
-                "https://maps.app.goo.gl/AuQzJBsLUucTJ3fK8",
+                "https://maps.app.goo.gl/XbajenDxEotpTn767",
                 "_blank",
                 "noopener,noreferrer"
               );

@@ -1,5 +1,17 @@
 import male from "../assets/images/male.webp";
 import female from "../assets/images/female.webp";
+import lance from "../assets/images/teachers/lance.webp";
+import alexander from "../assets/images/teachers/alexander.webp";
+import dan from "../assets/images/teachers/dan.webp";
+import danial from "../assets/images/teachers/danial.webp";
+import daria from "../assets/images/teachers/daria.webp";
+import jennifer from "../assets/images/teachers/jennifer.webp";
+import michelle from "../assets/images/teachers/michelle.webp";
+import nastia from "../assets/images/teachers/nastia.webp";
+import nastyaT from "../assets/images/teachers/nastya-t.webp";
+import sam from "../assets/images/teachers/sam.webp";
+import saryuna from "../assets/images/teachers/saryuna.webp";
+import tim from "../assets/images/teachers/tim.webp";
 
 export const teachersData = {
   titleEn:
@@ -17,13 +29,61 @@ export const teachersData = {
         "Founder and Academic Director, guiding the school's vision and academic excellence. DELTA-certified expert in English teaching with a strong track record in C2 proficiency, advanced learning, and exam preparation. Passionate about curriculum development, teacher training, and fostering a dynamic, empowering learning environment.",
       descAr:
         "مؤسس ومدير أكاديمي للمدرسة، يقود رؤيتها وتميزها الأكاديمي. حاصل على مؤهل DELTA المرموق، مما يدل على خبرة متقدمة في تدريس اللغة الإنجليزية. معلم متمرس بسجل حافل في توجيه الطلاب إلى إتقان C2، متخصص في اكتساب اللغة المتقدمة، والتحضير للامتحانات، واللغة الإنجليزية الأكاديمية. شغوف بتطوير المناهج، وتدريب المعلمين، وتعزيز بيئة تعليمية ديناميكية تمكن الطلاب من تحقيق الإتقان اللغوي.",
-      image: male,
+      image: lance,
       countryEn: "England",
       countryAr: "إنجلترا",
       gender: "male",
     },
+
     {
       id: "2",
+      nameEN: "Nastya",
+      nameAr: "ناستيا",
+      titleEn: "General English / English for Children / Business English",
+      titleAr: "الإنجليزية العامة / الإنجليزية للأطفال / الإنجليزية للأعمال",
+      descEn:
+        "Head of Development and a Russian-speaking English teacher, Nastya helps students gain confidence and fluency. She creates a supportive environment where learners speak from day one. With patient guidance and expert methods, she ensures steady progress for beginners and intermediates alike. Her passion and understanding make her the ideal mentor to accelerate your English journey.",
+      descAr:
+        "رئيسة التطوير ومعلمة لغة إنجليزية متخصصة تتحدث الروسية، ناستيا ملتزمة بمساعدة المتعلمين على تجاوز الحواجز اللغوية وتحقيق الطلاقة. بقدرة ملحوظة على غرس الثقة، تخلق بيئة داعمة وجذابة يشعر فيها الطلاب بالتمكين للتحدث من اليوم الأول. سواء كنت مبتدئًا تكافح للعثور على صوتك أو متعلمًا متوسطًا يتطلع إلى تحسين مهاراتك، فإن توجيه ناستيا الصبور وأساليب التدريس الخبيرة تضمن تقدمًا ثابتًا. شغفها بتعلم اللغة، جنبًا إلى جنب مع فهمها العميق لاحتياجات الطلاب، يجعلها المرشد المثالي لبدء وتسريع رحلتك في التحدث باللغة الإنجليزية.",
+      image: nastia,
+      countryEn: "Russia",
+      countryAr: "روسيا",
+      gender: "female",
+    },
+
+    {
+      id: "3",
+      nameEN: "Nastya T",
+      nameAr: "ناستيا تي",
+      titleEn: "General English",
+      titleAr: "الإنجليزية العامة",
+      descEn:
+        "Learning English with Nastya is fun and engaging. A film and pop culture enthusiast, she uses movies, TV shows, and witty dialogues to bring language to life. She helps you catch wordplay, cultural references, and accents, making every lesson both enjoyable and enriching.",
+      descAr:
+        "تعلم اللغة الإنجليزية مع ناستيا ليس مملًا على الإطلاق. شغفها بالمسلسلات التلفزيونية والأفلام يجلب نهجًا جديدًا وممتعًا لتعلم اللغة. بصفتها من عشاق الأفلام والثقافة الشعبية الحقيقيين، فإنها تدمج مراجع جذابة ومشاهد لا تنسى وحوارات بارعة في دروسها، مما يجعل المفردات والتعبيرات تنبض بالحياة. بفضل أذنها الحريصة على الفروق الدقيقة اللغوية، ستساعدك على التقاط وفهم التلاعب بالألفاظ الدقيق والمراجع الثقافية والنكات الداخلية لشخصياتك المفضلة. سواء كان ذلك تحليلًا لخط النهاية أو شرحًا للتعبيرات الاصطلاحية أو تحليلًا للهجات، تضمن ناستيا أن يكون كل درس ممتعًا ومثريًا.",
+      image: nastyaT,
+      countryEn: "Russia",
+      countryAr: "روسيا",
+      gender: "female",
+    },
+
+    {
+      id: "4",
+      nameEN: "Saryuna",
+      nameAr: "ساريونا",
+      titleEn: "General English / IELTS",
+      titleAr: "الإنجليزية العامة / IELTS",
+      descEn:
+        "Love K-POP and cats? Saryuna turns your passions into fun language lessons! She creates personalised materials based on your interests, making learning exciting. Whether it's chatting about idols, analysing lyrics, or exploring trends, you'll soon be discussing your favourite stars with ease.",
+      descAr:
+        "هل أنت من محبي الكيبوب والقطط؟ ساريونا تعرف بالضبط كيف تحول شغفك إلى أدوات قوية لتعلم اللغة! من خلال نهجها الشخصي، تقوم بإنشاء مواد تدريب مخصصة مصممة خصيصًا لاهتماماتك، مما يضمن أن يكون كل درس مثيرًا وجذابًا. سواء كنت حريصًا على الدردشة حول معبوديك المفضلين أو تحليل كلمات الأغاني أو الغوص في أحدث اتجاهات الصناعة، فإنها ستدمجها بسلاسة في رحلة التعلم الخاصة بك. قبل أن تعرف ذلك، ستناقش نجوم الكيبوب المفضلين لديك، وتناقش النظريات، وتشارك قصص المعجبين—كل ذلك باللغة الإنجليزية بطلاقة! مع ساريونا، يبدو التعلم سهلًا وممتعًا وطبيعيًا تمامًا.",
+      image: saryuna,
+      countryEn: "Russia",
+      countryAr: "روسيا",
+      gender: "female",
+    },
+    {
+      id: "5",
       nameEN: "Sam",
       nameAr: "سام",
       titleEn:
@@ -34,55 +94,10 @@ export const teachersData = {
         "Assistant Director of Studies dedicated to academic excellence and student success. An IELTS expert, writing specialist, poet, and speech coach, Sam excels in language and communication. He will ensure you pass the IELTS with strategic insights, personalised feedback, and proven exam techniques.",
       descAr:
         "مساعد مدير الدراسات، مكرس للتميز الأكاديمي ونجاح الطلاب. خبير كتابة متميز، وشاعر بارع، ومتخصص في الخطابة ماهر، يجلب سام ثروة من الخبرة اللغوية إلى الفصل الدراسي. فهمه العميق لبنية اللغة، والبلاغة، والتواصل المقنع يجعله مرشدًا لا يقدر بثمن للطلاب الذين يهدفون إلى تحقيق أعلى الدرجات. إذا كنت قد كافحت مع الامتحان عدة مرات وشعرت بأنك عالق في دائرة من الإحباط، فإن سام هو دليلك النهائي - يقدم رؤى استراتيجية، وملاحظات شخصية، وتقنيات مثبتة لمساعدتك على تحقيق النتيجة التي تحتاجها أخيرًا.",
-      image: male,
+      image: sam,
       countryEn: "USA",
       countryAr: "امريكا",
       gender: "male",
-    },
-    {
-      id: "3",
-      nameEN: "Nastya",
-      nameAr: "ناستيا",
-      titleEn: "General English / English for Children / Business English",
-      titleAr: "الإنجليزية العامة / الإنجليزية للأطفال / الإنجليزية للأعمال",
-      descEn:
-        "Head of Development and a Russian-speaking English teacher, Nastya helps students gain confidence and fluency. She creates a supportive environment where learners speak from day one. With patient guidance and expert methods, she ensures steady progress for beginners and intermediates alike. Her passion and understanding make her the ideal mentor to accelerate your English journey.",
-      descAr:
-        "رئيسة التطوير ومعلمة لغة إنجليزية متخصصة تتحدث الروسية، ناستيا ملتزمة بمساعدة المتعلمين على تجاوز الحواجز اللغوية وتحقيق الطلاقة. بقدرة ملحوظة على غرس الثقة، تخلق بيئة داعمة وجذابة يشعر فيها الطلاب بالتمكين للتحدث من اليوم الأول. سواء كنت مبتدئًا تكافح للعثور على صوتك أو متعلمًا متوسطًا يتطلع إلى تحسين مهاراتك، فإن توجيه ناستيا الصبور وأساليب التدريس الخبيرة تضمن تقدمًا ثابتًا. شغفها بتعلم اللغة، جنبًا إلى جنب مع فهمها العميق لاحتياجات الطلاب، يجعلها المرشد المثالي لبدء وتسريع رحلتك في التحدث باللغة الإنجليزية.",
-      image: female,
-      countryEn: "Russia",
-      countryAr: "روسيا",
-      gender: "female",
-    },
-    {
-      id: "4",
-      nameEN: "Nastya T",
-      nameAr: "ناستيا تي",
-      titleEn: "General English",
-      titleAr: "الإنجليزية العامة",
-      descEn:
-        "Learning English with Nastya is fun and engaging. A film and pop culture enthusiast, she uses movies, TV shows, and witty dialogues to bring language to life. She helps you catch wordplay, cultural references, and accents, making every lesson both enjoyable and enriching.",
-      descAr:
-        "تعلم اللغة الإنجليزية مع ناستيا ليس مملًا على الإطلاق. شغفها بالمسلسلات التلفزيونية والأفلام يجلب نهجًا جديدًا وممتعًا لتعلم اللغة. بصفتها من عشاق الأفلام والثقافة الشعبية الحقيقيين، فإنها تدمج مراجع جذابة ومشاهد لا تنسى وحوارات بارعة في دروسها، مما يجعل المفردات والتعبيرات تنبض بالحياة. بفضل أذنها الحريصة على الفروق الدقيقة اللغوية، ستساعدك على التقاط وفهم التلاعب بالألفاظ الدقيق والمراجع الثقافية والنكات الداخلية لشخصياتك المفضلة. سواء كان ذلك تحليلًا لخط النهاية أو شرحًا للتعبيرات الاصطلاحية أو تحليلًا للهجات، تضمن ناستيا أن يكون كل درس ممتعًا ومثريًا.",
-      image: female,
-      countryEn: "Russia",
-      countryAr: "روسيا",
-      gender: "female",
-    },
-    {
-      id: "5",
-      nameEN: "Saryuna",
-      nameAr: "ساريونا",
-      titleEn: "General English / IELTS",
-      titleAr: "الإنجليزية العامة / IELTS",
-      descEn:
-        "Love K-POP and cats? Saryuna turns your passions into fun language lessons! She creates personalised materials based on your interests, making learning exciting. Whether it's chatting about idols, analysing lyrics, or exploring trends, you'll soon be discussing your favourite stars with ease.",
-      descAr:
-        "هل أنت من محبي الكيبوب والقطط؟ ساريونا تعرف بالضبط كيف تحول شغفك إلى أدوات قوية لتعلم اللغة! من خلال نهجها الشخصي، تقوم بإنشاء مواد تدريب مخصصة مصممة خصيصًا لاهتماماتك، مما يضمن أن يكون كل درس مثيرًا وجذابًا. سواء كنت حريصًا على الدردشة حول معبوديك المفضلين أو تحليل كلمات الأغاني أو الغوص في أحدث اتجاهات الصناعة، فإنها ستدمجها بسلاسة في رحلة التعلم الخاصة بك. قبل أن تعرف ذلك، ستناقش نجوم الكيبوب المفضلين لديك، وتناقش النظريات، وتشارك قصص المعجبين—كل ذلك باللغة الإنجليزية بطلاقة! مع ساريونا، يبدو التعلم سهلًا وممتعًا وطبيعيًا تمامًا.",
-      image: female,
-      countryEn: "Russia",
-      countryAr: "روسيا",
-      gender: "female",
     },
     {
       id: "6",
@@ -142,7 +157,7 @@ export const teachersData = {
         "Dan, with a degree in Business and Management, brings over 15 years of experience as an IELTS trainer. Specialising in corporate training and business writing, he helps students excel in exams and professionals craft standout resumes. His dynamic approach makes business English practical and engaging, ensuring confidence and success in your career or IELTS goals.",
       descAr:
         "دان حاصل على شهادة في إدارة الأعمال والإدارة ويجلب معه أكثر من 15 عامًا من الخبرة كمدرب آيلتس، مع تخصص في التدريب المؤسسي والكتابة التجارية. تمتد خبرته من إعداد الطلاب للاختبارات إلى مساعدة المهنيين في صياغة سير ذاتية ورسائل تغطية متميزة تترك انطباعًا دائمًا. مع دان، ستكتشف بسرعة أن اللغة الإنجليزية للأعمال ليست عملية فحسب، بل هي أيضًا جذابة وديناميكية. سواء كنت تتطلع إلى التقدم في حياتك المهنية، أو تحسين مهاراتك في الكتابة، أو التفوق في اختبار الآيلتس، فإن نهج دان المصمم خصيصًا يضمن لك اكتساب الثقة والإتقان في كل جانب من جوانب اللغة الإنجليزية المهنية.",
-      image: male,
+      image: dan,
       countryEn: "England",
       countryAr: "إنجلترا",
       gender: "male",
@@ -174,7 +189,7 @@ export const teachersData = {
         "Mike, a seasoned Cambridge examiner from England with over 20 years of experience, tailors lessons to suit each student’s needs. Passionate about British English, he teaches both language skills and the humour of the culture, helping you speak fluently and make others laugh. His fun and engaging lessons ensure a blend of learning and enjoyment.",
       descAr:
         "مايك هو ممتحن كامبريدج مخضرم من إنجلترا يتمتع بخبرة تزيد عن 20 عامًا في التدريس. تتيح له خبرته الواسعة التواصل بسهولة مع الطلاب من جميع الخلفيات، وتصميم نهجه ليناسب الاحتياجات الفردية وأنماط التعلم. بشغف لمشاركة الفروق الثقافية الدقيقة للغة الإنجليزية البريطانية، لا يساعد مايك الطلاب على إتقان المهارات اللغوية فحسب، بل يقدم لهم أيضًا الجانب المرح والفكاهي للغة، ويعلمك كيف تمزح باللغة الإنجليزية بطريقة تجعل الجميع يضحكون - ليس فقط والدتك! تم تصميم دروسه الجذابة لتكون ممتعة وتعليمية، مما يضمن لك بناء الطلاقة مع تبني روح الدعابة وسحر الثقافة البريطانية.",
-      image: male,
+      image: michelle,
       countryEn: "England",
       countryAr: "إنجلترا",
       gender: "male",
@@ -206,7 +221,7 @@ export const teachersData = {
         "Alexander is a strict yet fair teacher with expertise in linguistics and history. He focuses on structure and organisation, helping students grasp and apply key concepts. Known for high standards, Alexander challenges students to reach their potential while providing consistent support. His methodical approach ensures success in both linguistic theories and historical contexts.",
       descAr:
         "ألكسندر معلم صارم ولكنه عادل يتمتع بخبرة في اللغويات والتاريخ. يركز على الهيكل والتنظيم، مما يساعد الطلاب على فهم وتطبيق المفاهيم الأساسية. يشتهر ألكسندر بمعاييره العالية، ويتحدى الطلاب للوصول إلى إمكاناتهم الكاملة مع توفير الدعم المستمر. يضمن نهجه المنهجي النجاح في كل من النظريات اللغوية والسياقات التاريخية.",
-      image: male,
+      image: alexander,
       countryEn: "Russia",
       countryAr: "روسيا",
       gender: "male",
@@ -267,7 +282,7 @@ export const teachersData = {
         "Jen is always positive, fun, and full of energy in her classes. She ensures that learning is not only effective but also enjoyable, keeping a smile on your face throughout the process. Constantly innovating, she introduces fresh and exciting methods to keep lessons engaging, dynamic, and tailored to your needs.",
       descAr:
         "جين دائمًا إيجابية وممتعة ومليئة بالطاقة في فصولها.  إنها تضمن أن التعلم ليس فعالًا فحسب، بل إنه ممتع أيضًا، مما يبقي الابتسامة على وجهك طوال العملية.  من خلال الابتكار المستمر، تقدم أساليب جديدة ومثيرة للحفاظ على الدروس جذابة وديناميكية ومصممة خصيصًا لاحتياجاتك.",
-      image: female,
+      image: jennifer,
       countryEn: "South Africa",
       countryAr: "جنوب أفريقيا",
       gender: "female",
@@ -282,7 +297,7 @@ export const teachersData = {
         "Tim is an incredibly flexible and skilled teacher, dedicated to helping you reach your goals. His teaching approach goes beyond conventional methods, using a variety of techniques to find the one that works best for you. Whether you're focused on improving fluency, mastering grammar, or preparing for exams, Tim adapts to your needs, ensuring a personalised and effective learning experience.",
       descAr:
         "تيم معلم مرن وماهر بشكل لا يصدق، وهو مكرس لمساعدتك في الوصول إلى أهدافك.  يتجاوز نهجه في التدريس الأساليب التقليدية، باستخدام مجموعة متنوعة من التقنيات للعثور على الأسلوب الأفضل بالنسبة لك.  سواء كنت تركز على تحسين الطلاقة، أو إتقان القواعد، أو التحضير للامتحانات، فإن تيم يتكيف مع احتياجاتك، مما يضمن تجربة تعليمية مخصصة وفعالة.",
-      image: male,
+      image: tim,
       countryEn: "England",
       countryAr: "إنجلترا",
       gender: "male",

@@ -155,7 +155,7 @@ const Teachers = () => {
                                         : female
                                     }
                                     alt={item.nameEN}
-                                    className={`h-[200px] w-[200px] object-contain object-top rounded-full self-center`}
+                                    className={`h-[200px] w-[200px] object-fill object-top rounded-lg self-center`}
                                   />
                                   <div className="max-sm:text-center space-y-5">
                                     <p className="font-bold text-small md:text-med capitalize text-primary">
