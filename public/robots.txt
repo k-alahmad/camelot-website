@@ -1,0 +1,19 @@
+# robots.txt for Camelot English Language School Dubai
+# Allow all reputable crawlers access to public content
+
+User-agent: *
+# This means the following rules apply to all crawlers.
+
+Disallow:
+# An empty 'Disallow' means you are not disallowing anything by default for all user agents (*).
+# This generally allows crawlers to access all parts of your site unless specified otherwise below
+# or blocked by meta tags (like noindex).
+
+# --- Optional Disallows (Uncomment and modify if needed) ---
+# Disallow: /admin/             # Example: Disallow access to an admin directory
+# Disallow: /private/           # Example: Disallow access to a private area
+# Disallow: /search?q=* # Example: Disallow crawling of internal search results pages
+
+# --- Sitemap ---
+# Provide the absolute URL to your XML sitemap. This helps crawlers discover your pages.
+Sitemap: https://www.camelot-eng.ae/sitemap.xml #

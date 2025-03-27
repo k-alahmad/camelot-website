@@ -21,10 +21,7 @@ const HomePage = () => {
     <div>
       <Helmet>
         <title>{pageTitle}</title>
-        <meta
-          name={pageDescription}
-          content="Welcome to the home page of My Website."
-        />
+        <meta name="description" content={pageDescription} />
         <meta
           name="keywords"
           content="Learn English Dubai, English language school Dubai, English courses Dubai, Improve English speaking Dubai, English classes Dubai, Native English teachers Dubai, English trial lesson Dubai, English test Dubai, Camelot Dubai"
