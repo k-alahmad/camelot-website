@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import { store } from "./redux/store.js";
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+ import { HelmetProvider } from 'react-helmet-async';
 import "./index.css";
 import "./locales/index.js";
 import "slick-carousel/slick/slick.css";
@@ -11,6 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Loader from "./components/UI/Loader/index.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <HelmetProvider>
     <Provider store={store}>
       <Router>
         <Suspense fallback={<Loader />}>
@@ -18,5 +20,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </Suspense>
       </Router>
     </Provider>
+    </HelmetProvider>
   </React.StrictMode>
 );
