@@ -143,19 +143,11 @@ const Teachers = () => {
                                 dir={i18n.language == "ar" ? "rtl" : "ltr"}
                                 className="space-y-5 p-[5%]"
                               >
-                                <div className="flex max-sm:flex-col sm:justify-center sm:items-center gap-x-5">
+                                <div className="flex max-sm:flex-col sm:justify-start sm:items-center gap-x-5">
                                   <img
-                                    src={
-                                      item.gender == "male"
-                                        ? item.image !== ""
-                                          ? item.image
-                                          : male
-                                        : item.image !== ""
-                                        ? item.image
-                                        : female
-                                    }
+                                    src={item.image}
                                     alt={item.nameEN}
-                                    className={`h-[200px] w-[200px] object-fill object-top rounded-lg self-center`}
+                                    className={`h-[200px] w-[200px] object-cover object-top rounded-lg self-center border-2 border-primary`}
                                   />
                                   <div className="max-sm:text-center space-y-5">
                                     <p className="font-bold text-small md:text-med capitalize text-primary">
