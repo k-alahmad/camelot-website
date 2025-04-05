@@ -106,20 +106,34 @@ export const reviewsData = {
       messageEn:
         "I have been part of this conversation club since day one, and it has been an amazing experience. It has a friendly and dynamic atmosphere that makes practicing English fun and effective. The topics are interesting, the teacher guides the conversations excellently, and it’s a great opportunity to improve fluency while meeting new people.",
       messageAr:
-        "لقد كنت جزءًا من نادي المحادثة هذا منذ اليوم الأول، وكانت تجربة مذهلة. يتميز بجو ودي وديناميكي يجعل ممارسة اللغة الإنجليزية ممتعة وفعالة. الموضوعات شيقة، ويوجه المعلم المحادثات بشكل ممتاز، وهي فرصة رائعة لتحسين الطلاقة أثناء التعرف على أشخاص جدد.",
+          "لقد كنت جزءًا من نادي المحادثة هذا منذ اليوم الأول، وكانت تجربة مذهلة. يتميز بجو ودي وديناميكي يجعل ممارسة اللغة الإنجليزية ممتعة وفعالة. الموضوعات شيقة، ويوجه المعلم المحادثات بشكل ممتاز، وهي فرصة رائعة لتحسين الطلاقة أثناء التعرف على أشخاص جدد."
+    },
+    {
+      image: male,
+      nameEn: "C1 Student",
+      nameAr: "طالب متسوى C1",
+      titleEn: "C1 Student",
+      titleAr: "طالب متسوى C1",
+      noteEn: "",
+      noteAr: "",
+      messageEn:
+          "I've been studying in the C1 group with Lance for over two years, and it's been an incredible experience. Our lessons alwaus focus on engaging topics, are rich with diverse vocabulary and information from a variety of sources. A lot of time is devoted to developing speaking skills. Lance is a positive and highly qualified teacher, that is why I truly appreciate our classes. Thank you, Lance",
+      messageAr:
+          "لقد درستُ مع لانس في مجموعة C1 لأكثر من عامين، وكانت تجربة رائعة. تُركز دروسنا دائمًا على مواضيع شيقة، وهي غنية بمفردات ومعلومات متنوعة من مصادر متنوعة. نُكرّس الكثير من الوقت لتطوير مهارات التحدث. لانس مُعلّم إيجابي ومؤهل تأهيلاً عالياً، ولهذا أُقدّر دروسنا حقًا. شكرًا لك، لانس."
     },
     {
       image: female,
       nameEn: "Anna",
-      nameAr: "آنا",
+      nameAr: "Anna",
       titleEn: "English Teacher",
       titleAr: "مدرسة لغة انكليزية",
       noteEn: "",
       noteAr: "",
       messageEn:
-        "I’ve been learning English with Lance for more than half a year. As a teacher myself I really enjoy the process of education. For me It’s a perfect amalgamation of grammar, topics vocabulary, pronunciation and cultural awareness. So, thank you , Lance, for your professionalism and huge work that lies at heart of every lesson!",
+      "I’ve been learning English with Lance for more than half a year. As a teacher myself I really enjoy the process of education. For me It’s a perfect amalgamation of grammar, topics vocabulary, pronunciation and cultural awareness. So, thank you , Lance, for your professionalism and huge work that lies at heart of every lesson!",
       messageAr:
-        "لقد تعلمتُ الإنجليزية مع لانس لأكثر من نصف عام. وبصفتي مُعلّمًا، أستمتعُ حقًا بعملية التعليم. بالنسبة لي، إنها مزيجٌ مثاليٌّ من القواعد، ومفردات المواضيع، والنطق، والوعي الثقافي. لذا، شكرًا لك يا لانس، على احترافيتك وجهودك الجبارة التي تُشكّل جوهر كل درس!",
+         "لقد تعلمتُ الإنجليزية مع لانس لأكثر من نصف عام. وبصفتي مُعلّمًا، أستمتعُ حقًا بعملية التعليم. بالنسبة لي، إنها مزيجٌ مثاليٌّ من القواعد، ومفردات المواضيع، والنطق، والوعي الثقافي. لذا، شكرًا لك يا لانس، على احترافيتك وجهودك الجبارة التي تُشكّل جوهر كل درس!"
     },
+    
   ],
 };
