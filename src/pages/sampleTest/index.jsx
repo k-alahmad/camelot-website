@@ -95,9 +95,9 @@ const SampleTestPage = () => {
       wrongAnswers: userData.filter((x) => x.correct == false).length,
     });
   }
-  useEffect(() => {
-    console.log(userData);
-  }, [userData.length]);
+  // useEffect(() => {
+  //   console.log(userData);
+  // }, [userData.length]);
   return (
     <div className="px-[5%] mt-24 space-y-8 text-smaller md:text-small flex flex-col justify-start items-start">
       <p className="font-bold text-third text-big md:text-bigger text-center w-full">
