@@ -6,6 +6,11 @@ import useForm from "../../hooks/useForm";
 import { useTranslation } from "react-i18next";
 import CustomInput from "../../components/Forms/CustomInput";
 import { MdSend } from "react-icons/md";
+import { client } from "../../sanity/client";
+import { showMessage } from "../../redux/messageAction.slice";
+import { useDispatch } from "react-redux";
+import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 const defaultFormState = {
   email: "",
   fullName: "",
@@ -13,11 +18,12 @@ const defaultFormState = {
 };
 const SampleTestPage = () => {
   const [userData, setUserData] = useState([]);
-  const [userInfo, setUserInfo] = useState([]);
   const slideRef = useRef();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const { t, i18n } = useTranslation();
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const {
     disabled,
     errors,
@@ -27,14 +33,18 @@ const SampleTestPage = () => {
     handleChange,
     values,
   } = useForm(submit, defaultFormState);
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_5wdnu6j",
-        "template_slqqcpm",
-        values.current,
-        "sxh5TJan60LQqD6Sw"
+  const sendEmail = async (e) => {
+    // e.preventDefault();
+    await emailjs
+      .send(
+        "service_voa1non",
+        "template_kybq8ln",
+        {
+          email: values.email,
+          fullName: values.fullName,
+          phoneNumber: values.phoneNumber,
+        },
+        "tdJc4vKW38XtiE8B-"
       )
       .then(
         (result) => {
@@ -45,9 +55,45 @@ const SampleTestPage = () => {
         }
       );
   };
+  const sendToSanity = async (data) => {
+    try {
+      const result = await client.create(data);
+      setIsLoading(false);
+      setValues(defaultFormState);
+      sendEmail();
+      navigate("/");
+      dispatch(
+        showMessage({
+          message: i18n.language == "en" ? "Test Submitted" : "شكرا لك",
+          variant: "success",
+        })
+      );
+      return result;
+    } catch (error) {
+      setIsLoading(false);
+      setValues(defaultFormState);
+      showMessage({
+        message:
+          i18n.language == "en"
+            ? "Somthing went wrong, please try agian!"
+            : "حصل خطأ ما, الرجاء المحاولة مرة اخرى",
+        variant: "error",
+      });
+      throw error;
+    }
+  };
   function submit(e) {
-    // sendEmail(e);
-    setValues(defaultFormState);
+    setIsLoading(true);
+    sendToSanity({
+      _type: "testResults",
+      timestamp: new Date(),
+      studentName: values.fullName,
+      phoneNumber: values.phoneNumber,
+      email: values.email,
+      score: userData.filter((x) => x.correct).length,
+      correctAnswers: userData.filter((x) => x.correct).length,
+      wrongAnswers: userData.filter((x) => x.correct == false).length,
+    });
   }
   useEffect(() => {
     console.log(userData);
@@ -205,8 +251,8 @@ const SampleTestPage = () => {
         </div>
         <div
           className={`h-14 w-[100px] ${
-            userData.find((x) => x.questionId == testData[currentSlide].id) &&
-            currentSlide !== testData.length - 1
+            userData.find((x) => x.questionId == testData[currentSlide]?.id) &&
+            currentSlide !== testData.length
               ? "bg-primary"
               : "bg-gray-600"
           } transition-all duration-300 text-secondary flex justify-center items-center text-smaller md:text-small font-bold cursor-pointer p-1 gap-x-1 rounded-r-lg border-2 border-primary`}

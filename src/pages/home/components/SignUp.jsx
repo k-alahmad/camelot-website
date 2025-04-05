@@ -5,9 +5,9 @@ import { showMessage } from "../../../redux/messageAction.slice";
 import { MdSend } from "react-icons/md";
 import useForm from "../../../hooks/useForm";
 import { useDispatch } from "react-redux";
-import { MdExpandMore } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 import sowrd from "../../../assets/images/Sowrd.svg";
+import { client } from "../../../sanity/client";
 const defaultFormState = {
   email: "",
   fullName: "",
@@ -25,35 +25,17 @@ const SignUp = () => {
   } = useForm(submit, defaultFormState);
   const dispatch = useDispatch();
   const [isLoading, setIsLoading] = useState(false);
-  // useEffect(() => {
-  //   if (isSuccess) {
-  //     dispatch(
-  //       showMessage({
-  //         message:
-  //           i18n.language == "en"
-  //             ? "Thank You For Your Request"
-  //             : "شكرا على طلب الاستشارة",
-  //         variant: "success",
-  //       })
-  //     );
-  //   }
-  //   if (isError) {
-  //     showMessage({
-  //       message:
-  //         i18n.language == "en"
-  //           ? "Somthing went wrong, please try agian!"
-  //           : "حصل خطأ ما, الرجاء المحاولة مرة اخرى",
-  //       variant: "error",
-  //     });
-  //   }
-  // }, []);
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
+  const sendEmail = async (e) => {
+    // e.preventDefault();
+    await emailjs
+      .send(
         "service_voa1non",
-        "template_ldfp86q",
-        values.current,
+        "template_kybq8ln",
+        {
+          email: values.email,
+          fullName: values.fullName,
+          phoneNumber: values.phoneNumber,
+        },
         "tdJc4vKW38XtiE8B-"
       )
       .then(
@@ -65,9 +47,38 @@ const SignUp = () => {
         }
       );
   };
+  const sendToSanity = async (data) => {
+    try {
+      const result = await client.create(data);
+      setIsLoading(false);
+      setValues(defaultFormState);
+      sendEmail();
+      dispatch(
+        showMessage({
+          message:
+            i18n.language == "en"
+              ? "Thank You For Your Register"
+              : "شكرا على التسجيل",
+          variant: "success",
+        })
+      );
+      return result;
+    } catch (error) {
+      setIsLoading(false);
+      setValues(defaultFormState);
+      showMessage({
+        message:
+          i18n.language == "en"
+            ? "Somthing went wrong, please try agian!"
+            : "حصل خطأ ما, الرجاء المحاولة مرة اخرى",
+        variant: "error",
+      });
+      throw error;
+    }
+  };
   function submit(e) {
-    // sendEmail(e);
-    setValues(defaultFormState);
+    setIsLoading(true);
+    sendToSanity({ _type: "signup", timestamp: new Date(), ...values });
   }
   const { t, i18n } = useTranslation();
   return (
