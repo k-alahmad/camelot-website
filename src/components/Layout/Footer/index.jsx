@@ -133,6 +133,11 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        <div className=" flex justify-center items-center col-span-full">
+          <a href="https://www.kanaan-alahmad.com/" className="">
+            Developed By <span className="font-bold">INTELLECTUS DEV </span>
+          </a>
+        </div>
       </div>
     </div>
   );
