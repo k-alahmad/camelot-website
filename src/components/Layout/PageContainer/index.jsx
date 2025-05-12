@@ -25,7 +25,7 @@ const PageLayout = ({ children }) => {
         className="fixed bottom-5 right-5 bg-green-600 rounded-full p-3 z-50 cursor-pointer"
         onClick={() => {
           window.open(
-            "https://wa.me/971503192940",
+            "https://wa.me/971589186517",
             "_blank",
             "noopener,noreferrer"
           );

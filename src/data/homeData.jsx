@@ -94,7 +94,7 @@ export const homeData = {
     },
     right: {
       contactUs: {
-        phone: "+971545851248",
+        phone: "+971589186517",
         email: "info@camelot-eng.com",
         addressEn: "Dubai, JVC, Binghatti Emerald, office 303",
         addressAr: "دبي, قرية جميرا الدائرية, بناء بن غاطي اميرالد, مكتب 303",
