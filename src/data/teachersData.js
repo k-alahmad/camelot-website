@@ -24,7 +24,7 @@ export const teachersData = {
       id: "1",
       nameEN: "Lance",
       nameAr: "لانس",
-      titleEn: "General English / IELTS / Business English",
+      titleEn: "General English / IELTS ",
       titleAr: "الإنجليزية العامة / IELTS / الإنجليزية للأعمال",
       descEn:
         "Founder and Academic Director, guiding the school's vision and academic excellence. DELTA-certified expert in English teaching with a strong track record in C2 proficiency, advanced learning, and exam preparation. Passionate about curriculum development, teacher training, and fostering a dynamic, empowering learning environment.",
