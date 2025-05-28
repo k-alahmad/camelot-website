@@ -92,7 +92,7 @@ const Footer = () => {
           <div
             className="flex items-center gap-x-2 cursor-pointer"
             onClick={() => {
-              window.open("tel:+971545851248", "_blank", "noopener,noreferrer");
+              window.open("tel:+971589186517", "_blank", "noopener,noreferrer");
             }}
           >
             <FaPhone className="text-smaller md:text-small rotate-90" />
