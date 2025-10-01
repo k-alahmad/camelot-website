@@ -10,6 +10,7 @@ import SignUp from "./components/SignUp";
 import FAQ from "./components/FAQ";
 import Reviews from "./components/Reviews";
 import { Helmet } from "react-helmet";
+import App from "./components/NewHeader";
 const HomePage = () => {
   const pageTitle =
     "Learn English Fast in Dubai | Camelot English Language School | Free Trial";
@@ -100,7 +101,8 @@ const HomePage = () => {
           `}
         </script>
       </Helmet>
-      <Header />
+      {/* <Header /> */}
+      <App />
       <div id="aboutSchool" />
       <WWYG />
       {/* <TrialLesson /> */}

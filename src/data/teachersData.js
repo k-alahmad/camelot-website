@@ -13,6 +13,7 @@ import sam from "../assets/images/teachers/sam.webp";
 import saryuna from "../assets/images/teachers/saryuna.webp";
 import tim from "../assets/images/teachers/tim.webp";
 import robert from "../assets/images/teachers/robert.webp";
+import neepa from "../assets/images/teachers/neepa.webp";
 
 export const teachersData = {
   titleEn:
@@ -302,6 +303,21 @@ export const teachersData = {
       countryEn: "England",
       countryAr: "إنجلترا",
       gender: "male",
+    },
+    {
+      id: "19",
+      nameEN: "Neepa A",
+      nameAr: "نيبا",
+      titleEn: "General English / Business English / IELTS",
+      titleAr: "الإنجليزية العامة / الإنجليزية للأعمال / اختبار الآيلتس",
+      descEn:
+        "Celta qualified teacher who creates engaging, practical classes which get you speaking from the first class. Her patience nurtures confidence in her students.",
+      descAr:
+        "مُعلمة مؤهلة بشهادة سيلتا (CELTA) تُنشئ صفوفًا دراسية عملية وجذابة تجعلك تتحدث الإنجليزية من الحصة الأولى. صبرها يغذي الثقة لدى طلابها.",
+      image: neepa,
+      countryEn: "India",
+      countryAr: "الهند",
+      gender: "female",
     },
   ],
 };
