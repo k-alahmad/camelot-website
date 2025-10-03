@@ -26,9 +26,9 @@ export const allCarouselData = {
      {
       mainImage: m3,
       secondImage: m4,
-      title: "Free Open Weekend: Sunday 5th Culture & Career",
+      title: "Free Open Weekend: Sunday 5th Movie & Career",
       subtitle: "Learn a New Language and Power Up Your Career!",
-      subtitleTwo: "Start with Arabic or an A1 Class, then master Job Interview & CV Writing. Conclude with our special Culture Exchange potluck!",
+      subtitleTwo: "Start with Arabic or an A1 Class, then master Job Interview & CV Writing. Conclude with our special Movie Club!",
       buttonText: "Sign Up Now",
       buttonLink: "#signup"
     },
@@ -58,9 +58,9 @@ export const allCarouselData = {
   {
     mainImage: m3,
     secondImage: m4,
-    title: "عطلة نهاية الأسبوع المفتوحة مجانًا: الثقافة والوظائف (الأحد 5 اوكتوبر)",
+    title: "عطلة نهاية الأسبوع المفتوحة مجانًا: الأفلام والوظائف (الأحد 5 اوكتوبر)",
     subtitle: "كل شيء مجاني! ابدأ بـدروس عربية مجانية أو فئة A1، ثم أتقن مهارات كتابة السيرة الذاتية والمقابلة الوظيفية دون أي تكلفة.",
-    subtitleTwo: "ينتهي هذا اليوم المجاني بـالتبادل الثقافي المميز! اكتشف لغات جديدة وعزّز مسيرتك المهنية، كل ذلك مجانًا.",
+    subtitleTwo: "ينتهي هذا اليوم المجاني بـنادي الأفلام المميز! اكتشف لغات جديدة وعزّز مسيرتك المهنية، كل ذلك مجانًا.",
     buttonText: "سجّل الآن",
     buttonLink: "#signup"
   }

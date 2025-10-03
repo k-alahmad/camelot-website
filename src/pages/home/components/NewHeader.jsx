@@ -121,8 +121,8 @@ const App = () => {
               </div>
               
               {/* Image Section */}
-            <div className="w-full h-full relative">
-                    <div className="h-[260px] w-[260px]  sm:h-[300px] sm:w-[300px] lg:h-[380px] lg:w-[380px] absolute left-1/2 -translate-x-1/2 top-1/4  md:top-1/2 -translate-y-1/2">
+            <div className="w-full h-full  relative">
+                    <div className="h-[260px] w-[260px]  sm:h-[300px] sm:w-[300px] lg:h-[380px] lg:w-[380px] absolute left-1/2 -translate-x-1/2 top-1/3  md:top-1/2 -translate-y-1/2">
                       <img
                         src={slide.mainImage}
                         alt="{homeData.HeroSection.mainImageAlt}"
